@@ -3,3 +3,7 @@
 # inbox is a transient intake queue — never commit its contents (keep the folder)
 inbox/*
 !inbox/.gitkeep
+
+# output holds generated artifacts (plans, summaries, roadmaps) — local only, never commit
+output/*
+!output/.gitkeep
