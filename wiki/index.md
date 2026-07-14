@@ -229,3 +229,4 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [How to Write a Great agents.md](writing-a-great-agents-md.md) — six core areas; commands early, examples over prose, clear boundaries
 - [The Rise of AGENTS.md](rise-of-agents-md.md) — vendor-neutral instruction file; broad support, Claude Code the notable holdout
 - [O11ycast — The Observability Podcast](o11ycast-podcast.md) — Honeycomb-hosted observability podcast
+- [AI Product Engineer @ Speak (job posting)](speak-ai-product-engineer.md) — real posting: full-stack LLM product engineering + LLM Ops, not ML research
