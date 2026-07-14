@@ -30,3 +30,13 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [Six Friction Clusters When Building Agent Harnesses](agent-harness-friction-clusters.md) — where harness builds break, across the lifecycle
 - [Agentic Engineering Core](agentic-engineering-core.md) — sequential + parallel multi-agent core behind guardrails
 - [LangChain vs LangGraph](langchain-vs-langgraph.md) — workflow automation vs goal-achieving agentic AI
+- [Production AI App — Repository Structure](production-ai-app-structure.md) — annotated dir tree for a production RAG/agent app
+- [HTTP QUERY Method](http-query-method.md) — new verb: safe+idempotent like GET, body like POST
+- [Self-Improving Harness Loop](self-improving-harness-loop.md) — weakness mining → propose → regression-test → update
+- [Color Psychology](color-psychology.md) — what each color communicates, by emotion/industry/brand
+- [Intelligence From Architecture (IFA)](intelligence-from-architecture-ifa.md) — governance held by architecture, not procedure
+- [How AI Is Explained vs How It Feels](how-ai-feels-in-real-life.md) — the tidy pitch vs the real engineering obstacle course
+- [AI Harness Architecture](ai-harness-architecture.md) — the harness as an "AI Operating System"
+- [Five Engineering Archetypes](five-engineering-archetypes.md) — Prototyper/Builder/Sweeper/Grower/Maintainer (Boris Cherny)
+- [Build Your First Claude Automation](build-your-first-claude-automation.md) — same skill: manual → scheduled → cloud-autonomous
+- [How to Unf*ck Yourself](how-to-unfuck-yourself.md) — eight mindset shifts (Matt Gray)
