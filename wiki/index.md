@@ -149,3 +149,38 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [LiteLLM](litellm.md) — one OpenAI-format interface to 100+ LLMs; router + gateway
 - [Gateways Are All You Need](gateways-are-all-you-need.md) — MCP gateway as root of trust; decouple the harness from the data
 - [Tokenomics — Where Tokens Are Used in Agentic SE](tokenomics.md) — token spend mapped across SDLC phases in a multi-agent system
+- [Usage Panda LLM Proxy](usage-panda-llm-proxy.md) — OSS proxy enforcing security/cost/PII policy between app and LLM API
+- [Breaking AI to Fix It (Ian Webster)](breaking-ai-to-fix-it-ian-webster.md) — shipping AI to 200M Discord users birthed Promptfoo and its eval→security pivot
+- [Why, and How, You Need to Sandbox AI-Generated Code](why-and-how-to-sandbox-ai-generated-code.md) — AI code is untrusted internet code; three threats, capability allow-lists
+- [Amazon Bedrock AgentCore Code Interpreter](bedrock-agentcore-code-interpreter.md) — AWS managed isolated sandbox for agent-generated code, session isolation
+- [Bun as a Secure Sandbox Runtime (proposal)](bun-secure-sandbox-runtime-proposal.md) — request for a Deno-style --secure allow-list permission model
+- [Model Context Protocol](model-context-protocol.md) — the official open standard: host–client–server connection to tools/data
+- [Enterprise-Ready MCP (WorkOS)](enterprise-ready-mcp.md) — the auth/authz/scale gaps between MCP demos and production
+- [AWS Agent Registry](aws-agent-registry.md) — managed catalog/governance for agents: IAM, approval workflow, versioning, lifecycle
+- [Open SWE (LangChain)](open-swe-langchain.md) — coding-agent framework on Deep Agents; per-task isolated cloud sandboxes, parallel runs
+- [SWE-bench Leaderboard](swe-bench-leaderboard.md) — real GitHub issues, hidden-test scoring; Verified/Lite/Full/Multilingual variants
+- [SWT-Bench: Unit Test Generation](swt-bench-unit-test-generation.md) — test-writing benchmark; F2P tests reproducing an issue, scored by success + coverage
+- [Fixing SWE-bench (Toloka)](fixing-swe-bench-toloka.md) — audit: unfit tests, vague specs, env drift, stale/leaked data; two-step cleanup
+- [mini-SWE-agent](mini-swe-agent.md) — 100-line, bash-only, stateless agent scoring >74% on SWE-bench Verified
+- [Loop Engineering (Addy Osmani)](loop-engineering-osmani.md) — write loops not prompts; goal/trigger/fresh-context/verification/stop; worktrees for parallel
+- [LLM Observability, Evaluation, Experimentation (Arize)](arize-observability-evals-experimentation.md) — the observe→eval→experiment cycle for non-deterministic systems
+- [OpenLLMetry Is All You Need](openllmetry-is-all-you-need.md) — OpenTelemetry-based LLM observability; auto-instrumentation, platform-portable
+- [The Mess of Managing Skills Without a Package Manager](skills-without-a-package-manager.md) — skills are reusable but have no distribution layer
+- [Why Cursor Ditched Rules for Skills](why-cursor-ditched-rules-for-skills.md) — skills spread like MCP; context should be reusable
+- [When AI Writes the World's Software, Who Verifies It?](who-verifies-ai-software.md) — testing gives confidence, proof gives a guarantee — make AI prove its work
+- [Don't Get One-Shotted: An AI-Native Outer Loop (Graphite)](graphite-ai-outer-loop.md) — writing code sped up; review/merge/deploy is now the bottleneck
+- [Does AI Generate Secure Code? (Caleb Sima)](does-ai-generate-secure-code.md) — AI writes insecure code because we do; injection is a control/data-plane problem
+- [The Hidden Vulnerabilities Behind AI Code (Brandel)](hidden-vulnerabilities-ai-code.md) — correctness climbs while security benchmarks stay flat
+- [Cisco CodeGuard: Security Skills](cisco-codeguard-security-skills.md) — eval-backed security skills injected into the agent; 47%→84% secure-code
+- [litellm PyPI Supply-Chain Attack](litellm-pypi-supply-chain-attack.md) — malicious .pth harvests creds and pivots into Kubernetes
+- [auth.md: Open Protocol for Agentic Registration](auth-md-agentic-registration.md) — agents authenticate for users via a hosted markdown file + OAuth discovery
+- [How and Why I Attribute LLM-Derived Code (Tanna)](attributing-llm-derived-code.md) — per-commit Co-authored-by trailers name the model + provider
+- [Why Code Provenance Is Non-Negotiable (Beyond Identity)](code-provenance-non-negotiable.md) — sign every commit to a verified identity (SLSA)
+- [Principles of Agentic Development](principles-of-agentic-development.md) — agents build code, humans direct the system; specs endure, code is ephemeral
+- [The Rise of the AI Engineer (swyx)](rise-of-the-ai-engineer.md) — names the applied-AI role between researchers and engineers
+- [Agentic Coding and Persistent Returns to Expertise](claude-code-expertise-study.md) — 400k Claude Code sessions: domain expertise, not coding skill, decides success
+- [Coding Agents Are Hot — AI Engineer NYC](coding-agents-are-hot-ai-engineer-nyc.md) — the industry shifted from vector DBs to evals
+- [Comprehension Debt (Osmani)](comprehension-debt-osmani.md) — the primary essay: AI generates faster than humans can audit
+- [How AI Assistance Impacts Coding-Skill Formation](ai-assistance-and-coding-skill-formation.md) — Anthropic RCT: AI group scored 17% lower; delegation vs inquiry
+- [Cognitive Debt (Storey)](cognitive-debt.md) — debt lives in minds, not code; a program is a theory (Naur)
+- [Cognitive Debt — Outpacing Comprehension 5–7×](cognitive-debt-velocity-comprehension-gap.md) — five studies converge; review is the new chokepoint
