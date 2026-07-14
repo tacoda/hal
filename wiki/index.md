@@ -184,3 +184,48 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [How AI Assistance Impacts Coding-Skill Formation](ai-assistance-and-coding-skill-formation.md) — Anthropic RCT: AI group scored 17% lower; delegation vs inquiry
 - [Cognitive Debt (Storey)](cognitive-debt.md) — debt lives in minds, not code; a program is a theory (Naur)
 - [Cognitive Debt — Outpacing Comprehension 5–7×](cognitive-debt-velocity-comprehension-gap.md) — five studies converge; review is the new chokepoint
+- [Ironies of Automation (Bainbridge)](ironies-of-automation.md) — automating a process moves and sharpens the residual human job
+- [AI and the Ironies of Automation](ai-and-the-ironies-of-automation.md) — Bainbridge's 1983 ironies mapped onto AI-agent oversight
+- [Moving Fast With Agents Without Losing Comprehension](moving-fast-with-agents-without-losing-comprehension.md) — we optimize agent comprehension while human understanding erodes
+- [The Law of Leaky Abstractions (Spolsky)](law-of-leaky-abstractions.md) — all non-trivial abstractions leak; tools save working time, not learning time
+- [Revenge of the Junior Developer](revenge-of-the-junior-developer.md) — six waves of AI coding; why juniors adopt agents faster than seniors
+- [Critical Thinking During the Age of AI](critical-thinking-during-the-age-of-ai.md) — a who/what/where/when/why/how checklist for verifying AI output
+- [AI Won't Kill Junior Devs — But Your Hiring Strategy Might](ai-wont-kill-junior-devs.md) — no juniors today means no seniors tomorrow
+- [Does AI Make Us Stupid? (Cognitive Offloading)](does-ai-make-us-stupid.md) — every tool offloads a skill; do the hard tasks yourself
+- [How AI Could Save (Not Destroy) Education](how-ai-could-save-education.md) — Bloom's 2-sigma via a Socratic, answer-withholding AI tutor
+- [The Product Engineer Manifesto](product-engineer-manifesto.md) — builders who understand the problem before solutions; product thinking + execution
+- [Product Engineer vs Software Engineer](product-engineer-vs-software-engineer.md) — product engineer owns the outcome and talks to users; SWE owns code quality
+- [Anthropic — Product Engineer, Computer Use](anthropic-product-engineer-computer-use.md) — real posting: end-to-end full-stack ownership, no layers to model or user
+- [The Reinvention of the Dev Team (Foxwell)](the-reinvention-of-the-dev-team.md) — the balanced team is broken; refocus on outcomes and composition
+- [Working Demo, So What?](working-demo-so-what.md) — 4 hrs vs 3 weeks, but only ~30% of prototype code is salvageable
+- [Does AI Actually Boost Developer Productivity? (Stanford)](does-ai-boost-developer-productivity.md) — ~15–20% real gain, but much gross output is rework
+- [Developer Productivity with Nicole Forsgren](developer-productivity-with-nicole-forsgren.md) — "PRs and diffs are good signals and terrible signals"; DORA + SPACE
+- [The 8 Software Engineering Metrics AI Broke](software-engineering-metrics-ai-broke.md) — AI severed the link between effort and output; outcome metrics hold
+- [Force Multiplication — Make It Intentional](force-multiplication-make-it-intentional.md) — 10× = mastering context and lifting the team, as an operating model
+- [Canva: Yes, You Can Use AI in Our Interviews](canva-ai-in-interviews.md) — insist candidates use AI; grade judgment, not unaided typing
+- [Meta's AI-Enabled Coding Interview](meta-ai-enabled-coding-interview.md) — three-phase AI-assisted problem graded on solving/quality/verification/communication
+- [Meta Just Transformed Their Coding Interviews](meta-transformed-coding-interviews.md) — developer take: graded on how you direct and verify the assistant
+- [Software Engineer Interviews for the Age of AI](interviews-for-the-age-of-ai.md) — hire for ownership and fractal depth; "it's still your phone number"
+- [How to Hire Engineers Who Use AI](hiring-engineers-who-use-ai.md) — screen Rejector/Accepter/Reviewer; the hire pushes back on AI output
+- [OWASP Top 10 for LLM Applications](owasp-llm-top-10.md) — canonical LLM01–LLM10 risk taxonomy
+- [LLM Safeguards (Whitenack)](llm-safeguards.md) — five LLM failure modes and the around-the-model layers that mitigate each
+- [CodeGate / Stacklok](codegate-stacklok.md) — local secrets/PII proxy for coding assistants, now K8s-native governed MCP
+- [LLM Secrets — Protect .env from Claude Code](llm-secrets.md) — hardware-bound local vault so the agent runs commands without seeing plaintext secrets
+- [The AI Productivity Paradox (Faros)](ai-productivity-paradox.md) — individual output up, org-level gains evaporate as review becomes the bottleneck
+- [Measuring the ROI of AI Code Assistants (Jellyfish)](measuring-roi-of-code-assistants.md) — true cost 2–3× license; use a control group to attribute gains
+- [IBM Race for ROI — EMEA Study](ibm-race-for-roi-emea.md) — 66% claim gains, 92% expect ROI in 2yrs — self-reported sentiment, not measured delivery
+- [Build or Buy AI Agents (Marr)](build-or-buy-ai-agents-marr.md) — a strategic choice shaping cost, control, compliance, differentiation
+- [Buy vs Build, Build, Build (Lorikeet)](buy-vs-build-build-build.md) — agents break the SaaS math; building means forever-rebuilding
+- [Build vs Buy — The Hidden Cost of No-Code UI](build-vs-buy-hidden-cost-no-code-ui.md) — the real axis is code vs clicks; no-code config rots into archaeology
+- [Split the Stack — Building vs Buying AI Agents](split-the-stack-ai-agents.md) — rent the commodity plumbing, own the agentic control plane
+- [Tiny Teams — Oleve](tiny-teams-oleve-sid-bendre.md) — $6M ARR, 5M users, 4 employees; prompt-routing, per-intent workflows, distribution as moat
+- [The Code AI Maturity Model (Sourcegraph)](code-ai-maturity-model.md) — a 6-level SAE-style ladder from no-AI to AI-led coding
+- [The AI Codebase Maturity Model (ACMM)](ai-codebase-maturity-model.md) — CMMI-inspired levels gated by feedback-loop topology; intelligence in the harness
+- [Engineers Training Engineers — 93% Adoption](engineers-training-engineers-adoption.md) — peer-led, in-person, basics-first training beats handing out tools
+- [AI Adoption at Org Scale (Borg)](ai-adoption-at-org-scale.md) — skepticism is often earned; name the hype, give time, tame the bots
+- [No Vibes Allowed (Dex Horthy)](no-vibes-allowed-dex-horthy.md) — intentional compaction + Research/Plan/Implement for brownfield agents
+- [Effective Context Engineering for AI Agents (Anthropic)](effective-context-engineering-anthropic.md) — smallest high-signal token set; JIT retrieval, compaction, memory
+- [Managing Context on the Claude Platform](claude-context-management.md) — context editing (~84% fewer tokens) + file-based memory tool
+- [How to Write a Great agents.md](writing-a-great-agents-md.md) — six core areas; commands early, examples over prose, clear boundaries
+- [The Rise of AGENTS.md](rise-of-agents-md.md) — vendor-neutral instruction file; broad support, Claude Code the notable holdout
+- [O11ycast — The Observability Podcast](o11ycast-podcast.md) — Honeycomb-hosted observability podcast
