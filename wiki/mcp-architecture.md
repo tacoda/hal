@@ -3,7 +3,6 @@ type: Image
 title: Model Context Protocol (MCP) Architecture
 tags: [mcp, agents, tools, integration, architecture]
 timestamp: 2026-07-14
-source: sources/images/mcp-architecture.png
 ---
 
 # Model Context Protocol (MCP) Architecture
@@ -30,13 +29,20 @@ Request flow: user request → AI app/host → MCP client → MCP server → ent
 data/tools → response. Benefits: standardized integration, reusable tools/context, secure
 access, modular & scalable, supports agentic workflows.
 
+## Request flow
+
+```mermaid
+flowchart LR
+  U["User request"] --> Host["AI App / MCP Host"]
+  Host --> Cli["MCP Client"]
+  Cli -->|"MCP protocol"| Srv["MCP Server (tools / resources / prompts / memory)"]
+  Srv --> Ext["Enterprise data & tools"]
+  Ext --> Resp["Response"]
+```
+
 ## Cross-links
 
 The tooling/integration layer (layer 5) of [Agentic Engineering Stack](agentic-engineering-stack.md)
 and the "tool integration" layer of [Agent Harness Engineering](agent-harness-engineering.md),
 detailed. MCP appears as a connector in [AI Harness Architecture](ai-harness-architecture.md)
 and [The AI Factory Stack](ai-factory-stack.md).
-
-## References
-
-- ![Model Context Protocol (MCP) Architecture](../sources/images/mcp-architecture.png)

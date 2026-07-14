@@ -63,6 +63,15 @@ because the test passes against the real code.
    here because a harness without Ops is a black box, indistinguishable from a broken
    one. Heuristic: each layer implementable in <200 lines.)
 
+## The analogy
+
+```mermaid
+flowchart BT
+  M["Model = CPU"] --> Ctx["Context window = RAM"]
+  Ctx --> Harn["Harness = Operating System<br/>orchestration · context · tools · verification · operations"]
+  Harn --> App["Agent = application on top"]
+```
+
 ## Where harness engineering goes wrong (four failure modes)
 
 1. **Over-engineered harness** — more harness code than the agent it wraps; the

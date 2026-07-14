@@ -3,7 +3,6 @@ type: Image
 title: "How AI Is Explained vs How It Feels in Real Life"
 tags: [ai-engineering, agents, humor, failure-modes, rag]
 timestamp: 2026-07-14
-source: sources/images/how-ai-feels-in-real-life.png
 ---
 
 # How AI Is Explained vs How It Feels in Real Life
@@ -28,7 +27,3 @@ The lived-experience companion to the systematic
 — nearly every gag (RAG, chunking, JSON, guardrails, latency, evals) is one of the
 failure modes the harness in [Agent Harness Engineering](agent-harness-engineering.md)
 exists to catch.
-
-## References
-
-- ![How AI Is Explained vs How It Feels in Real Life](../sources/images/how-ai-feels-in-real-life.png)

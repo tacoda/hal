@@ -3,7 +3,6 @@ type: Image
 title: The Outbox Pattern
 tags: [distributed-systems, messaging, reliability, transactions, event-driven]
 timestamp: 2026-07-14
-source: sources/images/outbox-pattern.png
 ---
 
 # The Outbox Pattern
@@ -26,13 +25,18 @@ delivers to the **Message Broker**.
 Guarantees: **atomic write** (DB + outbox commit together), **reliable publish** (the
 publisher retries from the durable outbox), **at-least-once** delivery.
 
+## The pattern
+
+```mermaid
+flowchart LR
+  Tx["Business transaction"] --> DB[("Orders + Outbox<br/>one atomic commit")]
+  DB --> Pub["Publisher reads the outbox"]
+  Pub --> Broker["Message broker"]
+```
+
 ## Cross-links
 
 A messaging/idempotency pattern from [System Design Master Tree](system-design-master-tree.md)
 (message queue, pub/sub, idempotency). The at-least-once + retry semantics are why the
 "retry-masked corruption" failure mode in [Agent Harness Engineering](agent-harness-engineering.md)
 demands idempotency keys.
-
-## References
-
-- ![The Outbox Pattern](../sources/images/outbox-pattern.png)

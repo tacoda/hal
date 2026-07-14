@@ -3,7 +3,6 @@ type: Image
 title: A Developer's Day With the Harness
 tags: [harness-engineering, agents, workflow, productivity]
 timestamp: 2026-07-14
-source: sources/images/developer-day-with-the-harness.png
 ---
 
 # A Developer's Day With the Harness
@@ -31,7 +30,3 @@ higher velocity.
 The concrete daily-workflow payoff of the architecture in
 [Agent Harness Engineering](agent-harness-engineering.md): orchestration + verification
 mean the human reviews plan and output, not every intermediate tool call.
-
-## References
-
-- ![A Developer's Day With the Harness](../sources/images/developer-day-with-the-harness.png)

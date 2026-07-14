@@ -18,7 +18,9 @@ an OKF v0.1 bundle.
 
 - `Reference` — synthesized from an external source: a URL (via `/hal-url`) or a local
   PDF/HTML document (via `/hal-doc`)
-- `Image` — extracted from a pasted image (via `/hal-image`)
+- `Image` — extracted from a pasted/ingested image (via `/hal-image`). The image itself
+  is **not** retained — ingested images are pixelated and low-value; the extracted note is
+  what matters. Omit `source` (there is no stored file).
 - `Note` — a small freeform note I wrote (via `/hal-note`)
 - `Index` — a catalog file (`index.md`)
 
@@ -30,7 +32,7 @@ type: Reference          # required
 title: Attention Is All You Need
 tags: [transformers, attention, nlp]
 timestamp: 2026-07-14
-source: https://arxiv.org/abs/1706.03762   # URL, or sources/images/<slug>.png
+source: https://arxiv.org/abs/1706.03762   # URL, or sources/docs/<slug>.<ext>; omit for Note/Image
 ---
 ```
 
@@ -43,19 +45,35 @@ Omit `source` for `Note`. Use ISO dates for `timestamp`.
 - When a topic accumulates several notes, group them in a subfolder
   (`wiki/transformers/…`) and give it its own `index.md`. Don't create subfolders
   speculatively — flat until it earns a folder.
-- Stored originals: images in `sources/images/<slug>.png`, PDF/HTML documents in
+- Stored originals: only PDF/HTML documents you own or that are freely licensed, in
   `sources/docs/<slug>.<ext>`. Never edit files under `sources/` — they are immutable.
+  **Ingested images are not stored** — extract the information into the note and delete
+  the image (it's pixelated and adds nothing over the note).
+- **Copyright rule (applies to all books and copyrighted material):** never commit a
+  copyrighted third-party document — books, papers, commercial/course PDFs — to the repo.
+  Keep the synthesized note (a summary in our own words is fair use) but do **not** store
+  the file: set the note's `source` to the canonical online URL and link to that URL in
+  `## References`, exactly like a `/hal-url` note. Delete the inbox copy once the note is
+  written. When in doubt about whether something is copyrighted, treat it as copyrighted.
 - `sources/inbox/` is the shared intake queue: drop raw images, PDFs, or HTML files
   there to process later. Anything in `inbox/` is unprocessed by definition; `/hal-image`
-  (images) and `/hal-doc` (PDF/HTML) move each out to its `sources/` home as they write
-  the note, so an empty inbox means nothing is pending.
+  and `/hal-doc` clear each from the queue as they write the note — storing only
+  self-owned/free documents in `sources/docs/`, and **deleting** images and copyrighted
+  material after extracting/linking. An empty inbox means nothing is pending.
 
 ## Note body
 
 1. Synthesized content in your own words — the point is a clean, queryable summary, not
    a copy of the source.
 2. Cross-links to related notes where relevant.
-3. A final `## References` section linking to the source (URL) or the stored image path.
+3. **Visuals when they help.** If a concept is inherently visual — a layered stack, a
+   loop/cycle, a flow, an architecture — recreate it as a **mermaid** diagram (GitHub
+   renders mermaid in markdown). Pick an appropriate chart type and keep it faithful. Do
+   this *only* when the picture adds understanding; for a table or a short list, words are
+   enough. Never embed pixelated source images.
+4. A final `## References` section linking to the source: a URL for linked/copyrighted
+   material, or `../sources/docs/<slug>.<ext>` for a stored document. Image notes have no
+   `## References` (nothing is stored).
 
 ## Maintaining the catalog
 

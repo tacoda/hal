@@ -3,7 +3,6 @@ type: Image
 title: 26 Claude Code Commands (Cheat Sheet)
 tags: [claude-code, cli, cheatsheet, commands, agents, skills, mcp]
 timestamp: 2026-07-14
-source: sources/images/claude-code-commands-26.png
 ---
 
 # 26 Claude Code Commands (Cheat Sheet)
@@ -31,7 +30,3 @@ Overlaps [21 Claude Code Commands](claude-code-commands-21.md) (adds `/branch`,
 `/rewind`, `/agents`, `/skills`, `/plugin`, `/security-review`, `/plan`). `/agents` and
 `/skills` are the mechanisms in [The Double Dovetail](double-dovetail.md) and
 [Engineer the Loop](engineer-the-loop.md).
-
-## References
-
-- ![26 Claude Code Commands](../sources/images/claude-code-commands-26.png)

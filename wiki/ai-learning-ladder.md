@@ -3,7 +3,6 @@ type: Image
 title: The AI Learning Ladder — Don't Learn AI Randomly
 tags: [learning-path, roadmap, ai, ml, foundations]
 timestamp: 2026-07-14
-source: sources/images/ai-learning-ladder.png
 ---
 
 # The AI Learning Ladder
@@ -40,7 +39,3 @@ the layers in order, bottom to top.
 - Stronger foundations build stronger systems.
 
 > Foundations today. Mastery tomorrow. Impact forever.
-
-## References
-
-- ![The AI Learning Ladder](../sources/images/ai-learning-ladder.png)

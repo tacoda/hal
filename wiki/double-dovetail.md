@@ -3,7 +3,6 @@ type: Image
 title: The Double Dovetail
 tags: [workflows, skills, agents, determinism, harness-engineering]
 timestamp: 2026-07-14
-source: sources/images/double-dovetail.png
 ---
 
 # The Double Dovetail
@@ -20,13 +19,17 @@ The "double dovetail": determinism and agency each nest inside the other. A rigi
 workflow can invoke a smart skill at a step; a smart skill can drop into rigid code when
 it needs a guaranteed operation.
 
+## The nesting
+
+```mermaid
+flowchart TB
+  W["1 · Workflows — pure structure, no intelligence"] --> SW["3 · Skills within workflows — deterministic harness runs intelligent steps"]
+  S["2 · Skills — intelligence, little structure"] --> WS["4 · Workflows within skills — intelligent step calls deterministic code"]
+```
+
 ## Cross-links
 
 The nesting is the practical form of the deterministic-loop idea in
 [Engineer the Loop, Not the Prompt](engineer-the-loop.md), and maps onto the
 orchestration ↔ verification split in
 [Agent Harness Engineering](agent-harness-engineering.md).
-
-## References
-
-- ![The Double Dovetail](../sources/images/double-dovetail.png)

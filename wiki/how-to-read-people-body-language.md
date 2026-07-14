@@ -3,7 +3,6 @@ type: Image
 title: "How to Read People: The Art of Body Language"
 tags: [body-language, communication, soft-skills, nonverbal]
 timestamp: 2026-07-14
-source: sources/images/how-to-read-people-body-language.png
 ---
 
 # How to Read People: The Art of Body Language
@@ -22,7 +21,3 @@ suggestive, not deterministic.
 - **Lips:** puckered = disapproval/frustration; pursed = deep thought or withheld
   emotion; lip biting = anxiety or suppressed anger; looking at your lips = struggling
   to understand you.
-
-## References
-
-- ![How to Read People](../sources/images/how-to-read-people-body-language.png)

@@ -3,7 +3,6 @@ type: Image
 title: "Alex Hormozi's 7 Deal-Killing Sentences"
 tags: [sales, communication, founders, negotiation]
 timestamp: 2026-07-14
-source: sources/images/hormozi-deal-killing-sentences.png
 ---
 
 # Alex Hormozi's 7 Deal-Killing Sentences
@@ -22,7 +21,3 @@ Seven things founders say on sales calls that kill deals, and what to say instea
 | 7 | "I'll send over a proposal" | "Based on what you've shared — are you ready to move forward?" | Don't delay the decision; if the conversation is right, ask for the close |
 
 > "The words you use on a sales call are worth more than the offer behind them."
-
-## References
-
-- ![Alex Hormozi's 7 Deal-Killing Sentences](../sources/images/hormozi-deal-killing-sentences.png)

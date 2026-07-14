@@ -3,7 +3,6 @@ type: Image
 title: "Intelligence From Architecture (IFA): Governance by Design"
 tags: [ai-governance, architecture, compliance, guardrails, deterministic]
 timestamp: 2026-07-14
-source: sources/images/intelligence-from-architecture-ifa.png
 ---
 
 # Intelligence From Architecture (IFA): Governance by Design
@@ -47,7 +46,3 @@ it reaches anyone who acts on it.
 A "governance in the architecture" stance that complements the layered checklist in
 [Six Layers for AI Governance](six-layers-ai-governance.md) and the
 verification/guardrails layers of [Agent Harness Engineering](agent-harness-engineering.md).
-
-## References
-
-- ![Intelligence From Architecture (IFA)](../sources/images/intelligence-from-architecture-ifa.png)

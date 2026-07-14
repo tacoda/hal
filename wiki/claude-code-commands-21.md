@@ -3,7 +3,6 @@ type: Image
 title: 21 Claude Code Commands (Cheat Sheet)
 tags: [claude-code, cli, cheatsheet, commands, mcp]
 timestamp: 2026-07-14
-source: sources/images/claude-code-commands-21.png
 ---
 
 # 21 Claude Code Commands (Cheat Sheet)
@@ -32,7 +31,3 @@ Side panels:
 A different, overlapping cheat sheet: [26 Claude Code Commands](claude-code-commands-26.md).
 `-p` / `--max-turns` power the loops in
 [Engineer the Loop, Not the Prompt](engineer-the-loop.md).
-
-## References
-
-- ![21 Claude Code Commands](../sources/images/claude-code-commands-21.png)

@@ -3,7 +3,6 @@ type: Image
 title: Self-Improving Harness Loop
 tags: [harness-engineering, agents, self-improvement, evaluation, loop]
 timestamp: 2026-07-14
-source: sources/images/self-improving-harness-loop.png
 ---
 
 # Self-Improving Harness Loop
@@ -19,6 +18,18 @@ A cycle for a harness that improves itself over iterations, indexed by version `
 The key guard is the regression test at validation: a proposed self-edit only ships if
 it doesn't regress, so the harness can rewrite itself without drifting worse.
 
+## The loop
+
+```mermaid
+flowchart LR
+  H["Current harness h_t"] --> W["Weakness mining — cluster failures"]
+  W --> P["Harness proposal — h_t proposes edits"]
+  P --> V{"Proposal validation — regression test"}
+  V -->|reject| H
+  V -->|accept| U["Updated harness h_t+1"]
+  U --> W
+```
+
 ## Cross-links
 
 An automated version of the improvement loop in
@@ -26,7 +37,3 @@ An automated version of the improvement loop in
 itself; weakness mining targets the problems catalogued in
 [Six Friction Clusters When Building Agent Harnesses](agent-harness-friction-clusters.md)
 and [Agent Harness Engineering](agent-harness-engineering.md).
-
-## References
-
-- ![Self-Improving Harness Loop](../sources/images/self-improving-harness-loop.png)

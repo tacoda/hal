@@ -3,7 +3,6 @@ type: Image
 title: "Color Psychology: What Colors Communicate"
 tags: [color, branding, design, marketing, psychology]
 timestamp: 2026-07-14
-source: sources/images/color-psychology.png
 ---
 
 # Color Psychology: What Colors Communicate
@@ -25,7 +24,3 @@ industries that use them, what they're used to do, and example brands.
 | Brown | Reliability, stability, honesty, comfort | Imply common sense, support emotions, warmth | UPS, Hershey's, Louis Vuitton |
 | Gray | Neutral, practical, conservative, formal | Create composure, timeless, mature | Apple, Wikipedia, NYT |
 | Black | Power, control, authority, elegance | Hide feelings, intimidate, radiate authority | Nike, Chanel, Adidas |
-
-## References
-
-- ![Color Psychology](../sources/images/color-psychology.png)

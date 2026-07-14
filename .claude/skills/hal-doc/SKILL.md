@@ -27,23 +27,24 @@ Pick the mode from the request. With no named file and no clear instruction, run
 2. Decide a title and kebab-case slug from the content. Pick tags. Check `wiki/` for an
    existing note on the same topic — if one exists, update it instead of duplicating,
    and cross-link.
-3. Store the original under `sources/docs/<slug>.<ext>` (immutable — never edited later):
-   - Inbox file: `git mv sources/inbox/<file> sources/docs/<slug>.<ext>`. This also
-     clears it from the queue.
-   - Named file already elsewhere on disk: `cp` it to that path.
+3. **Decide whether the document may be stored.** If it is a book, paper, or other
+   copyrighted third-party work (see the copyright rule in `CLAUDE.md`), do **not** store
+   it — find its canonical online URL (arXiv abstract page, publisher page, course page,
+   etc.), and `rm sources/inbox/<file>` to clear it from the queue. When in doubt, treat
+   it as copyrighted. Only documents you own or that are freely licensed get stored:
+   - Inbox file: `git mv sources/inbox/<file> sources/docs/<slug>.<ext>` (also clears it).
+   - Named file elsewhere on disk: `cp` it to that path. (`sources/` is immutable.)
 4. Choose the note path: `wiki/<slug>.md` (or a topic subfolder if one already holds
    related notes).
 5. Write the note:
-   - Frontmatter: `type: Reference`, `title`, `tags`, `timestamp` (today),
-     `source: sources/docs/<slug>.<ext>`.
+   - Frontmatter: `type: Reference`, `title`, `tags`, `timestamp` (today), and `source`:
+     the canonical URL for copyrighted/linked docs, or `sources/docs/<slug>.<ext>` for a
+     stored one.
    - Body: a clean synthesis **in your own words** — key ideas, definitions, takeaways.
      Not a transcript. Cross-link related notes with markdown links.
-   - End with:
-     ```
-     ## References
-     - [<title>](../sources/docs/<slug>.<ext>)
-     ```
-     (adjust the relative path to the note's depth).
+   - End with a `## References` link: the canonical URL for copyrighted/linked docs, or
+     `[<title>](../sources/docs/<slug>.<ext>)` for a stored one (adjust the relative path
+     to the note's depth).
 6. Append a pointer line to the nearest `index.md`:
    `- [Title](slug.md) — one-line hook`.
 

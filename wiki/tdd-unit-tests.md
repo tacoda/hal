@@ -3,7 +3,6 @@ type: Image
 title: "TDD: Unit Tests and Hexagonal Boundaries"
 tags: [tdd, testing, hexagonal-architecture, ports-and-adapters, refactoring]
 timestamp: 2026-07-14
-source: sources/images/tdd-unit-tests.png
 ---
 
 # TDD: Unit Tests and Hexagonal Boundaries
@@ -36,7 +35,3 @@ sits at the ports, not inside the domain.
 Same architecture as [Hexagonal Architecture & Domain-Driven Design](hexagonal-architecture-ddd.md).
 Refactoring safety is one of the five practices in
 [TDD: Five Supporting Practices](tdd-five-practices.md).
-
-## References
-
-- ![TDD: Unit Tests](../sources/images/tdd-unit-tests.png)

@@ -3,7 +3,6 @@ type: Image
 title: The 7 AI Architecture Maps Every Leader Should Know
 tags: [ai-architecture, leadership, governance, strategy, security]
 timestamp: 2026-07-14
-source: sources/images/seven-ai-architecture-maps.png
 ---
 
 # The 7 AI Architecture Maps Every Leader Should Know
@@ -40,7 +39,3 @@ A leader/strategy lens over the same governance concerns as
 [Intelligence From Architecture (IFA)](intelligence-from-architecture-ifa.md). Map 3
 (agent authority) is the orchestration/guardrails story in
 [Agent Harness Engineering](agent-harness-engineering.md).
-
-## References
-
-- ![The 7 AI Architecture Maps Every Leader Should Know](../sources/images/seven-ai-architecture-maps.png)

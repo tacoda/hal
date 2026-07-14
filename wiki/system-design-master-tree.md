@@ -3,7 +3,6 @@ type: Image
 title: System Design Master Tree
 tags: [system-design, distributed-systems, scalability, architecture, taxonomy]
 timestamp: 2026-07-14
-source: sources/images/system-design-master-tree.png
 ---
 
 # System Design Master Tree
@@ -26,7 +25,3 @@ progression, grouped roughly by theme:
   time series.
 
 A study checklist / reference index rather than a single argument.
-
-## References
-
-- ![System Design Master Tree](../sources/images/system-design-master-tree.png)

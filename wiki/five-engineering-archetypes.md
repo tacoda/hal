@@ -3,7 +3,6 @@ type: Image
 title: "Five Engineering Archetypes (Boris Cherny)"
 tags: [teams, roles, product, engineering, career]
 timestamp: 2026-07-14
-source: sources/images/five-engineering-archetypes.png
 ---
 
 # Five Engineering Archetypes (Boris Cherny)
@@ -26,7 +25,3 @@ be any of them). A healthy team mixes them by product stage:
 
 Suggestion: future product roles may look more like these archetypes than today's
 domain-specific titles.
-
-## References
-
-- ![Five Engineering Archetypes](../sources/images/five-engineering-archetypes.png)

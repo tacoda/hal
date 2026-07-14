@@ -3,7 +3,6 @@ type: Image
 title: The Autonomy Ladder
 tags: [agents, autonomy, claude-code, loop, agent-sdk, harness-engineering]
 timestamp: 2026-07-14
-source: sources/images/autonomy-ladder.png
 ---
 
 # The Autonomy Ladder
@@ -28,7 +27,3 @@ to a workflow that decides its own steps, to a full Agent SDK.
 Rungs 1–3 (`/loop`, `/goal`) are the mechanisms described in
 [Engineer the Loop, Not the Prompt](engineer-the-loop.md). Higher rungs correspond to
 the orchestration layer in [Agent Harness Engineering](agent-harness-engineering.md).
-
-## References
-
-- ![The Autonomy Ladder](../sources/images/autonomy-ladder.png)

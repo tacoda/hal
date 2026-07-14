@@ -3,7 +3,6 @@ type: Image
 title: How to Unf*ck Yourself
 tags: [self-improvement, mindset, productivity, psychology]
 timestamp: 2026-07-14
-source: sources/images/how-to-unfuck-yourself.png
 ---
 
 # How to Unf*ck Yourself
@@ -24,7 +23,3 @@ A self-improvement mind-map (Matt Gray, Founder OS) of eight mindset shifts.
   fuel to level up.
 - **Life doesn't owe you anything** — nothing's free; go win it; expecting handouts sets
   you up for disappointment.
-
-## References
-
-- ![How to Unf*ck Yourself](../sources/images/how-to-unfuck-yourself.png)

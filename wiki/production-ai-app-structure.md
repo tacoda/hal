@@ -3,7 +3,6 @@ type: Image
 title: Production AI App — Repository Structure
 tags: [architecture, rag, project-structure, production, fastapi, harness]
 timestamp: 2026-07-14
-source: sources/images/production-ai-app-structure.png
 ---
 
 # Production AI App — Repository Structure
@@ -47,8 +46,3 @@ A filesystem-level realization of [Agent Harness Engineering](agent-harness-engi
 `security/`, `evaluation/`, `observability/` are its tool/verification/operations layers.
 `.claude/`, `CLAUDE.md`, `AGENTS.md` are the agent-context files from
 [Four Files to Save You Two Hours a Day](four-files-ai-workflow.md).
-
-## References
-
-- ![Production AI App — Repository Structure](../sources/images/production-ai-app-structure.png)
-- ![Production AI App — What's Inside?](../sources/images/production-ai-app-whats-inside.png)

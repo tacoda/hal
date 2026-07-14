@@ -3,7 +3,6 @@ type: Image
 title: Engineer the Loop, Not the Prompt
 tags: [harness-engineering, agents, loop, claude-code, verification, goal]
 timestamp: 2026-07-14
-source: sources/images/engineer-the-loop.png
 ---
 
 # Engineer the Loop, Not the Prompt
@@ -42,13 +41,21 @@ Two principles called out:
   worktree`) so parallel loops never collide on files.
 - **You still own the merge:** a green evaluator is a *claim, not a proof*.
 
+## The loop
+
+```mermaid
+flowchart LR
+  A["Define done"] --> B["Act — read / edit / run"]
+  B --> C{"Verify (separate grader ≠ worker)"}
+  C -->|fail| D["Refine — read errors, revise"]
+  D --> B
+  C -->|pass| E["Ship — PR / ticket / Slack"]
+  E --> A
+```
+
 ## Cross-links
 
 The worker≠grader rule is the verification layer of
 [Agent Harness Engineering](agent-harness-engineering.md). `/goal` and `/loop` are the
 low rungs of [The Autonomy Ladder](autonomy-ladder.md). Determinism-around-intelligence
 is [The Double Dovetail](double-dovetail.md).
-
-## References
-
-- ![Engineer the Loop, Not the Prompt](../sources/images/engineer-the-loop.png)

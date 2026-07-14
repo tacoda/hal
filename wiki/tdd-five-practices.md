@@ -3,7 +3,6 @@ type: Image
 title: "TDD and Its Five Supporting Practices"
 tags: [tdd, testing, refactoring, continuous-delivery, modular-architecture]
 timestamp: 2026-07-14
-source: sources/images/tdd-five-practices.png
 ---
 
 # TDD and Its Five Supporting Practices
@@ -24,7 +23,3 @@ The framing: TDD is the hub, and the surrounding practices reinforce it (and eac
 Refactoring safety and the test boundary are detailed in
 [TDD: Unit Tests and Hexagonal Boundaries](tdd-unit-tests.md); modular architecture
 connects to [Hexagonal Architecture & Domain-Driven Design](hexagonal-architecture-ddd.md).
-
-## References
-
-- ![TDD and Its Five Supporting Practices](../sources/images/tdd-five-practices.png)

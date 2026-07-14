@@ -3,7 +3,6 @@ type: Image
 title: How to Build Your Claude "Clone"
 tags: [ai, personal-ai, memory, skills, voice, workflow]
 timestamp: 2026-07-14
-source: sources/images/build-your-claude-clone.png
 ---
 
 # How to Build Your Claude "Clone"
@@ -29,7 +28,3 @@ second brain in your voice.
 The same voice/memory/skills building blocks as
 [Four Files to Save You Two Hours a Day](four-files-ai-workflow.md) — `.md` files for
 voice, Skills for recurring tasks, Memory for compounding learning.
-
-## References
-
-- ![How to Build Your Claude "Clone"](../sources/images/build-your-claude-clone.png)

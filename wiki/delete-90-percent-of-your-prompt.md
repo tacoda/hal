@@ -3,7 +3,6 @@ type: Image
 title: Delete 90% of Your Prompt (with Claude 5)
 tags: [prompting, claude, prompt-engineering, memory, skills]
 timestamp: 2026-07-14
-source: sources/images/delete-90-percent-of-your-prompt.png
 ---
 
 # Delete 90% of Your Prompt (with Claude 5)
@@ -33,7 +32,3 @@ The model-side complement to voice/skills files in
 [Four Files to Save You Two Hours a Day](four-files-ai-workflow.md) (`/my-voice`, Skills);
 contrast with the heavier [XML Prompt Scaffold](xml-prompt-scaffold.md), which still
 fences rules explicitly for higher-stakes coding work.
-
-## References
-
-- ![Delete 90% of Your Prompt](../sources/images/delete-90-percent-of-your-prompt.png)

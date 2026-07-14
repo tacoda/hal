@@ -3,7 +3,6 @@ type: Image
 title: "CRESS: A Context-Quality Checklist"
 tags: [context-engineering, prompting, harness, agents, checklist]
 timestamp: 2026-07-14
-source: sources/images/cress-context-checklist.png
 ---
 
 # CRESS: A Context-Quality Checklist
@@ -27,7 +26,3 @@ An actionable checklist for the **context management** layer of
 guard against stale or hallucinated context. Complements
 [Delete 90% of Your Prompt](delete-90-percent-of-your-prompt.md) (keep only what the
 model can't infer).
-
-## References
-
-- ![CRESS: A Context-Quality Checklist](../sources/images/cress-context-checklist.png)

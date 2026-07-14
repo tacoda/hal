@@ -3,7 +3,6 @@ type: Image
 title: The Rise of the Forward Deployed Engineer
 tags: [roles, forward-deployed-engineer, ai-engineering, deployment, career]
 timestamp: 2026-07-14
-source: sources/images/forward-deployed-engineer.png
 ---
 
 # The Rise of the Forward Deployed Engineer
@@ -37,7 +36,3 @@ The role that owns the "after AI" bottleneck in [Before AI / After AI](before-an
 [Agentic Engineering Stack](agentic-engineering-stack.md) and
 [Agent Harness Engineering](agent-harness-engineering.md). Overlaps the Builder/Maintainer
 archetypes in [Five Engineering Archetypes](five-engineering-archetypes.md).
-
-## References
-
-- ![The Rise of the Forward Deployed Engineer](../sources/images/forward-deployed-engineer.png)

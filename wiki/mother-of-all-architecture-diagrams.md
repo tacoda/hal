@@ -3,7 +3,6 @@ type: Image
 title: The Mother of All Architecture Diagrams
 tags: [architecture, history, layers, agentic-ai, system-design]
 timestamp: 2026-07-14
-source: sources/images/mother-of-all-architecture-diagrams.png
 ---
 
 # The Mother of All Architecture Diagrams
@@ -35,7 +34,3 @@ A historical superset of [Agentic Engineering Stack](agentic-engineering-stack.m
 [AI Harness Architecture](ai-harness-architecture.md); the intelligence-layer evolution
 is the story behind [Layers of AI](layers-of-ai.md). Same author's agent-scale view:
 [The Enterprise AI Motherboard](enterprise-ai-motherboard.md).
-
-## References
-
-- ![The Mother of All Architecture Diagrams](../sources/images/mother-of-all-architecture-diagrams.png)

@@ -3,7 +3,6 @@ type: Image
 title: The AI Factory Stack
 tags: [ai, stack, llm, rag, vector-db, agents, mcp, guardrails, evals]
 timestamp: 2026-07-14
-source: sources/images/ai-factory-stack.png
 ---
 
 # The AI Factory Stack
@@ -21,13 +20,21 @@ one-word role.
 
 Together they form an "AI factory" that delivers real results.
 
+## The pipeline
+
+```mermaid
+flowchart LR
+  LLM["LLM — brain"] --> RAG["RAG — researcher"]
+  RAG --> VDB["Vector DB — memory"]
+  VDB --> AG["AI Agent — doer"]
+  AG --> MCP["MCP — connector"]
+  MCP --> GR["Guardrails — safety"]
+  GR --> EV["Evals — quality"]
+```
+
 ## Cross-links
 
 A compact, role-per-component version of [Agentic Engineering Stack](agentic-engineering-stack.md)
 and [AI Harness Architecture](ai-harness-architecture.md). Guardrails + Evals are the
 verification/operations layers of [Agent Harness Engineering](agent-harness-engineering.md);
 MCP is detailed in [Model Context Protocol (MCP) Architecture](mcp-architecture.md).
-
-## References
-
-- ![The AI Factory Stack](../sources/images/ai-factory-stack.png)

@@ -3,7 +3,6 @@ type: Image
 title: Build Your First Claude Automation
 tags: [claude, automation, skills, cowork, claude-code, scheduling]
 timestamp: 2026-07-14
-source: sources/images/build-your-first-claude-automation.png
 ---
 
 # Build Your First Claude Automation
@@ -30,7 +29,3 @@ without rewriting it.
 The consumer-facing on-ramp to [The Autonomy Ladder](autonomy-ladder.md) (`/loop`,
 `/schedule` rungs) and [Engineer the Loop, Not the Prompt](engineer-the-loop.md). Builds
 on the personal-AI setup in [How to Build Your Claude "Clone"](build-your-claude-clone.md).
-
-## References
-
-- ![Build Your First Claude Automation](../sources/images/build-your-first-claude-automation.png)

@@ -3,7 +3,6 @@ type: Image
 title: AI Engineering Bookshelf
 tags: [books, learning, ai-engineering, reading-list, reference]
 timestamp: 2026-07-14
-source: sources/images/ai-engineering-bookshelf.png
 ---
 
 # AI Engineering Bookshelf
@@ -32,7 +31,3 @@ A reading progression mirroring the learn-foundations-first idea.
 A book-form version of the progressions in [The AI Learning Ladder](ai-learning-ladder.md),
 [Layers of AI](layers-of-ai.md), and [How to Learn Agentic AI](how-to-learn-agentic-ai.md);
 the System Design tier pairs with [System Design Master Tree](system-design-master-tree.md).
-
-## References
-
-- ![AI Engineering Bookshelf](../sources/images/ai-engineering-bookshelf.png)

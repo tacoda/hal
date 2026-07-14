@@ -3,7 +3,6 @@ type: Image
 title: XML Prompt Scaffold for Coding Agents
 tags: [prompting, coding-agents, xml, claude, harness]
 timestamp: 2026-07-14
-source: sources/images/xml-prompt-scaffold.png
 ---
 
 # XML Prompt Scaffold for Coding Agents
@@ -57,7 +56,3 @@ The per-turn instruction discipline that the context/verification layers of
 [Agent Harness Engineering](agent-harness-engineering.md) enforce structurally; "don't
 hard code values to satisfy tests" is exactly the false-success failure its verifier
 catches.
-
-## References
-
-- ![XML Prompt Scaffold](../sources/images/xml-prompt-scaffold.png)

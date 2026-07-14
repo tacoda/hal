@@ -3,7 +3,6 @@ type: Image
 title: "AI Harness Architecture: The AI Operating System"
 tags: [harness-engineering, agents, architecture, rag, mcp, observability]
 timestamp: 2026-07-14
-source: sources/images/ai-harness-architecture.png
 ---
 
 # AI Harness Architecture: The AI Operating System
@@ -26,6 +25,20 @@ A right-hand **Observability & Continuous Improvement** column runs alongside al
 observability & tracing (Langfuse/OpenTelemetry), evaluation (LLM-as-a-Judge), human
 feedback loop (thumbs, edits), continuous improvement (retrain, refine, reroute).
 
+## The layers
+
+```mermaid
+flowchart TB
+  U["User request"] --> Top["Gateway · Intent detection · Model router · Guardrails"]
+  Top --> L1["Context Orchestration — Hybrid/Graph RAG, MCP"]
+  L1 --> L2["Tool & Agent Orchestration"]
+  L2 --> L3["Response & Quality — validation, citation, scoring"]
+  L3 --> Resp["Response"]
+  Obs["Observability & Continuous Improvement"] -.-> L1
+  Obs -.-> L2
+  Obs -.-> L3
+```
+
 ## Cross-links
 
 The same five concerns as [Agent Harness Engineering](agent-harness-engineering.md)
@@ -34,7 +47,3 @@ sibling of the [Agentic Engineering Stack](agentic-engineering-stack.md) and
 [Agentic Engineering Core](agentic-engineering-core.md). The "AI Operating System"
 framing is the same one in [What Is Agent Harness Engineering?](agent-harness-engineering.md)
 (model=CPU, harness=OS).
-
-## References
-
-- ![AI Harness Architecture](../sources/images/ai-harness-architecture.png)

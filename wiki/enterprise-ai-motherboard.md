@@ -3,7 +3,6 @@ type: Image
 title: The Enterprise AI Motherboard
 tags: [architecture, agents, enterprise, orchestration, governance, analogy]
 timestamp: 2026-07-14
-source: sources/images/enterprise-ai-motherboard.png
 ---
 
 # The Enterprise AI Motherboard
@@ -43,7 +42,3 @@ A maximalist sibling of [AI Harness Architecture](ai-harness-architecture.md) an
 [The Mother of All Architecture Diagrams](mother-of-all-architecture-diagrams.md). The
 orchestrator-as-CPU echoes the model=CPU / harness=OS analogy in
 [Agent Harness Engineering](agent-harness-engineering.md).
-
-## References
-
-- ![The Enterprise AI Motherboard](../sources/images/enterprise-ai-motherboard.png)

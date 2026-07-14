@@ -3,7 +3,6 @@ type: Image
 title: Four Files to Save You Two Hours a Day
 tags: [agents, memory, context, skills, workflow, prompting]
 timestamp: 2026-07-14
-source: sources/images/four-files-ai-workflow.png
 ---
 
 # Four Files to Save You Two Hours a Day
@@ -27,7 +26,3 @@ next session starts smarter than the last. That's the loop.
 The file-as-memory pattern behind [Engineer the Loop, Not the Prompt](engineer-the-loop.md)
 (state on disk, not in context) and the skills/workflows nesting in
 [The Double Dovetail](double-dovetail.md).
-
-## References
-
-- ![Four Files to Save You Two Hours a Day](../sources/images/four-files-ai-workflow.png)

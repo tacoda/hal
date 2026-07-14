@@ -3,7 +3,6 @@ type: Image
 title: How to Learn Agentic AI
 tags: [agentic-ai, agents, learning-path, roadmap, agentops, governance]
 timestamp: 2026-07-14
-source: sources/images/how-to-learn-agentic-ai.png
 ---
 
 # How to Learn Agentic AI
@@ -42,7 +41,3 @@ automated, focus on real user value not demos.
 A learning-path counterpart to [The AI Learning Ladder](ai-learning-ladder.md) and
 [Layers of AI](layers-of-ai.md), focused on the agent tier; the AgentOps and
 safety branches map to [Agent Harness Engineering](agent-harness-engineering.md).
-
-## References
-
-- ![How to Learn Agentic AI](../sources/images/how-to-learn-agentic-ai.png)

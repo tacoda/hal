@@ -3,7 +3,6 @@ type: Image
 title: "LangChain vs LangGraph: Automation vs Agentic AI"
 tags: [langchain, langgraph, agents, workflow, automation, mcp]
 timestamp: 2026-07-14
-source: sources/images/langchain-vs-langgraph.png
 ---
 
 # LangChain vs LangGraph: Automation vs Agentic AI
@@ -30,13 +29,26 @@ or long-running tasks.
 
 > Automation follows instructions. Agentic AI achieves objectives.
 
+## The two shapes
+
+```mermaid
+flowchart TB
+  subgraph LC["LangChain — predefined flow"]
+    direction LR
+    R1["Request"] --> PT["Prompt"] --> M1["LLM"] --> T1["Tools / MCP"] --> O1["Response"]
+  end
+  subgraph LG["LangGraph — dynamic decisions"]
+    direction LR
+    R2["Request"] --> AN["Analyze"] --> DN{"Decision"}
+    DN --> AgA["Agent action"] --> EVR{"Evaluate results"}
+    EVR -->|"retry / alternate"| DN
+    EVR -->|"done"| O2["Complete"]
+  end
+```
+
 ## Cross-links
 
 The evaluate → decide → retry loop is exactly [Engineer the Loop, Not the
 Prompt](engineer-the-loop.md). The automation/agency split is the two ends of
 [The Double Dovetail](double-dovetail.md); the multi-agent routing appears in
 [Agentic Engineering Core](agentic-engineering-core.md).
-
-## References
-
-- ![LangChain vs LangGraph](../sources/images/langchain-vs-langgraph.png)

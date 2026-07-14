@@ -3,7 +3,6 @@ type: Image
 title: Six Friction Clusters When Building Agent Harnesses
 tags: [harness-engineering, agents, failure-modes, observability, security]
 timestamp: 2026-07-14
-source: sources/images/agent-harness-friction-clusters.png
 ---
 
 # Six Friction Clusters When Building Agent Harnesses
@@ -34,7 +33,3 @@ team scale → sustained use**.
 The failure-mode companion to [Agent Harness Engineering](agent-harness-engineering.md)
 — clusters 1–3 and 6 line up with its four failure modes (over-engineered harness,
 retry-masked corruption, cheap validation, observability tax).
-
-## References
-
-- ![Six Friction Clusters When Building Agent Harnesses](../sources/images/agent-harness-friction-clusters.png)

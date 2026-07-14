@@ -3,7 +3,6 @@ type: Image
 title: "Agentic Engineering: Sequential and Parallel Agent Core"
 tags: [agents, multi-agent, orchestration, guardrails, architecture, workflow]
 timestamp: 2026-07-14
-source: sources/images/agentic-engineering-core.png
 ---
 
 # Agentic Engineering: Sequential and Parallel Agent Core
@@ -24,13 +23,22 @@ in.
 The pattern shows both orchestration styles and where guardrails, context, and
 observability attach.
 
+## The core
+
+```mermaid
+flowchart TB
+  In["Input / prompt"] --> R["LLM Reasoning Layer"]
+  R --> Seq["Sequential: Planner → Coder → Reviewer → Deployer"]
+  R --> Par["Parallel: Planner → Coders 1-3 → Integrator"]
+  Seq --> G["Guardrails"]
+  Par --> G
+  G --> Out["Output"]
+  Out -.->|"adaptation & learning"| R
+```
+
 ## Cross-links
 
 A concrete instance of the [Agentic Engineering Stack](agentic-engineering-stack.md)
 (orchestration + guardrails + context + observability) and the five layers of
 [Agent Harness Engineering](agent-harness-engineering.md). Sequential vs parallel echoes
 the workflow/skill nesting in [The Double Dovetail](double-dovetail.md).
-
-## References
-
-- ![Agentic Engineering Core](../sources/images/agentic-engineering-core.png)

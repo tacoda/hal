@@ -3,7 +3,6 @@ type: Image
 title: "HTTP QUERY Method: A New Verb"
 tags: [http, api-design, rest, query, idempotency, ietf]
 timestamp: 2026-07-14
-source: sources/images/http-query-method.png
 ---
 
 # HTTP QUERY Method: A New Verb
@@ -26,7 +25,3 @@ being forced onto POST.
 
 Fits the API-design / idempotency topics in
 [System Design Master Tree](system-design-master-tree.md).
-
-## References
-
-- ![HTTP QUERY Method](../sources/images/http-query-method.png)
