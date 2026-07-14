@@ -40,3 +40,17 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [Five Engineering Archetypes](five-engineering-archetypes.md) — Prototyper/Builder/Sweeper/Grower/Maintainer (Boris Cherny)
 - [Build Your First Claude Automation](build-your-first-claude-automation.md) — same skill: manual → scheduled → cloud-autonomous
 - [How to Unf*ck Yourself](how-to-unfuck-yourself.md) — eight mindset shifts (Matt Gray)
+- [XML Prompt Scaffold for Coding Agents](xml-prompt-scaffold.md) — context/tasks/rules/tests/review/output fenced in XML
+- [How to Learn Agentic AI](how-to-learn-agentic-ai.md) — roadmap: components, frameworks, capabilities, AgentOps, governance
+- [Alex Hormozi's 7 Deal-Killing Sentences](hormozi-deal-killing-sentences.md) — what founders say that kills sales, and what to say instead
+- [The Mother of All Architecture Diagrams](mother-of-all-architecture-diagrams.md) — one 10-layer blueprint across five computing eras
+- [AI Governance by Design](ai-governance-by-design.md) — 6-stage governance lifecycle, built in not added on
+- [Delete 90% of Your Prompt](delete-90-percent-of-your-prompt.md) — modern models make prompt boilerplate unnecessary
+- [Model Context Protocol (MCP) Architecture](mcp-architecture.md) — standardized host↔server way to connect tools/data
+- [The Rise of the Forward Deployed Engineer](forward-deployed-engineer.md) — the embedded engineer bridging AI and customer reality
+- [AI Engineering Bookshelf](ai-engineering-bookshelf.md) — reading list, fundamentals → strategy
+- [The Outbox Pattern](outbox-pattern.md) — atomic DB+outbox write, reliable at-least-once publish
+- [The Enterprise AI Motherboard](enterprise-ai-motherboard.md) — agentic platform as a computer motherboard
+- [The AI Factory Stack](ai-factory-stack.md) — LLM/RAG/VectorDB/Agent/MCP/Guardrails/Evals, one role each
+- [The 7 AI Architecture Maps Every Leader Should Know](seven-ai-architecture-maps.md) — strategy→value governed AI architecture
+- [CRESS: A Context-Quality Checklist](cress-context-checklist.md) — Current/Refutable/Empirical/Small/Specific

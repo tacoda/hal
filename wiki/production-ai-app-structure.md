@@ -33,6 +33,14 @@ An annotated directory tree for a production RAG/agent application (`production-
   `docker-compose.yml`, `pyproject.toml`, `README.md` — AI coding-agent context, rules,
   project memory.
 
+## Design principles
+
+A second rendering of the same project ("What's Inside?") states the point — "a
+production-ready AI system is more than a FastAPI + GPT call" — and lists six design
+principles the layout serves: **modular & testable, observable by default, secure by
+design, evaluation-driven, cost & latency aware, built for change**. The exposed
+interface is a streaming `POST /v1/chat/completions`.
+
 ## Cross-links
 
 A filesystem-level realization of [Agent Harness Engineering](agent-harness-engineering.md):
@@ -43,3 +51,4 @@ A filesystem-level realization of [Agent Harness Engineering](agent-harness-engi
 ## References
 
 - ![Production AI App — Repository Structure](../sources/images/production-ai-app-structure.png)
+- ![Production AI App — What's Inside?](../sources/images/production-ai-app-whats-inside.png)
