@@ -16,7 +16,8 @@ an OKF v0.1 bundle.
 
 ## Note types
 
-- `Reference` — synthesized from an external URL (via `/hal-url`)
+- `Reference` — synthesized from an external source: a URL (via `/hal-url`) or a local
+  PDF/HTML document (via `/hal-doc`)
 - `Image` — extracted from a pasted image (via `/hal-image`)
 - `Note` — a small freeform note I wrote (via `/hal-note`)
 - `Index` — a catalog file (`index.md`)
@@ -42,11 +43,12 @@ Omit `source` for `Note`. Use ISO dates for `timestamp`.
 - When a topic accumulates several notes, group them in a subfolder
   (`wiki/transformers/…`) and give it its own `index.md`. Don't create subfolders
   speculatively — flat until it earns a folder.
-- Stored images go in `sources/images/<slug>.png`. Never edit files under `sources/` —
-  they are the immutable originals.
-- `sources/inbox/` is the intake queue: drop raw image files there to process later.
-  Anything in `inbox/` is unprocessed by definition; `/hal-image` moves each out to
-  `sources/images/` as it writes the note, so an empty inbox means nothing is pending.
+- Stored originals: images in `sources/images/<slug>.png`, PDF/HTML documents in
+  `sources/docs/<slug>.<ext>`. Never edit files under `sources/` — they are immutable.
+- `sources/inbox/` is the shared intake queue: drop raw images, PDFs, or HTML files
+  there to process later. Anything in `inbox/` is unprocessed by definition; `/hal-image`
+  (images) and `/hal-doc` (PDF/HTML) move each out to its `sources/` home as they write
+  the note, so an empty inbox means nothing is pending.
 
 ## Note body
 
