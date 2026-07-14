@@ -20,3 +20,13 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [TDD: Unit Tests and Hexagonal Boundaries](tdd-unit-tests.md) — tests coupled to API, decoupled from implementation
 - [TDD and Its Five Supporting Practices](tdd-five-practices.md) — TDD hub + refactoring, modularity, CD, spec-by-example, AI craft
 - [Hexagonal Architecture & Domain-Driven Design](hexagonal-architecture-ddd.md) — ports & adapters around a DDD core
+- [Six Layers for AI Governance](six-layers-ai-governance.md) — inventory → data → security → assurance → oversight → compliance
+- [How to Build Your Claude "Clone"](build-your-claude-clone.md) — input→output recipe for a personal AI in your voice
+- [21 Claude Code Commands](claude-code-commands-21.md) — slash-command cheat sheet + CLAUDE.md hierarchy & CLI modes
+- [26 Claude Code Commands](claude-code-commands-26.md) — CLI slash-command cheat sheet incl. agents/skills/plugins
+- [System Design Master Tree](system-design-master-tree.md) — ~50 system-design concepts as a study index
+- [Before AI / After AI](before-and-after-ai-bottlenecks.md) — how the engineering bottleneck moved up the stack
+- [How to Read People](how-to-read-people-body-language.md) — body-language cues by region (eyes/feet/hands/lips)
+- [Six Friction Clusters When Building Agent Harnesses](agent-harness-friction-clusters.md) — where harness builds break, across the lifecycle
+- [Agentic Engineering Core](agentic-engineering-core.md) — sequential + parallel multi-agent core behind guardrails
+- [LangChain vs LangGraph](langchain-vs-langgraph.md) — workflow automation vs goal-achieving agentic AI
