@@ -230,3 +230,14 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [The Rise of AGENTS.md](rise-of-agents-md.md) — vendor-neutral instruction file; broad support, Claude Code the notable holdout
 - [O11ycast — The Observability Podcast](o11ycast-podcast.md) — Honeycomb-hosted observability podcast
 - [AI Product Engineer @ Speak (job posting)](speak-ai-product-engineer.md) — real posting: full-stack LLM product engineering + LLM Ops, not ML research
+- [Clean Architecture](clean-architecture.md) — Uncle Bob on SOLID, component principles, and the Dependency Rule: draw boundaries, keep business rules at the center, defer the details
+- [Working Effectively with Legacy Code](working-effectively-with-legacy-code.md) — Feathers' toolkit for getting untested code under test: seams, characterization tests, the Legacy Code Change Algorithm, sprout/wrap, dependency-breaking
+- [Refactoring: Improving the Design of Existing Code](refactoring-improving-the-design-of-existing-code.md) — Fowler's 1st-edition classic: behavior-preserving small steps, code smells, and the two-hats discipline
+- [The Pragmatic Programmer](the-pragmatic-programmer.md) — Hunt & Thomas's 1999 craft classic: DRY, orthogonality, tracer bullets, broken windows, taking responsibility
+- [Test-Driven Development: By Example](test-driven-development-by-example.md) — Kent Beck's red/green/refactor loop, two rules, and three green-bar strategies
+- [Code Simplicity](code-simplicity.md) — software design as science: the Equation of Software Design, the law of change, and the three flaws that make code hard to change
+- [The Effective Engineer](the-effective-engineer.md) — leverage (impact per time invested) as the yardstick for engineering effectiveness
+- [Domain-Driven Design](domain-driven-design.md) — Evans' blue book: bind code to a domain model via ubiquitous language, tactical building blocks, strategic bounded contexts
+- [Practical Object-Oriented Design in Ruby](practical-object-oriented-design-in-ruby.md) — Sandi Metz on OO design judged by one yardstick: does it make the next change cheaper?
+- [Clean Code](clean-code.md) — Robert C. Martin's craftsmanship handbook: meaningful names, small functions, tests over comments, the Boy Scout Rule
+- [Effective Testing with RSpec 3](effective-testing-with-rspec-3.md) — Marston & Dees on RSpec's three gems, describe/it structure, matchers, doubles, and the fast-unit vs integration philosophy
