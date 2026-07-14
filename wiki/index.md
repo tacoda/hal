@@ -241,3 +241,22 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [Practical Object-Oriented Design in Ruby](practical-object-oriented-design-in-ruby.md) — Sandi Metz on OO design judged by one yardstick: does it make the next change cheaper?
 - [Clean Code](clean-code.md) — Robert C. Martin's craftsmanship handbook: meaningful names, small functions, tests over comments, the Boy Scout Rule
 - [Effective Testing with RSpec 3](effective-testing-with-rspec-3.md) — Marston & Dees on RSpec's three gems, describe/it structure, matchers, doubles, and the fast-unit vs integration philosophy
+- [Hexagonal Architecture (Ports & Adapters)](hexagonal-architecture-ports-and-adapters.md) — wrap the app core in an API so users, programs, and tests drive it equally; ports/adapters + one inward-dependency rule
+- [Patterns of Enterprise Application Architecture](patterns-of-enterprise-application-architecture.md) — Fowler's catalog: three-layer architecture + domain-logic, data-source, ORM, web-presentation, and offline-concurrency patterns
+- [Microservice Architecture](microservice-architecture.md) — microservices as a goal (speed + safety at scale), not just small services: DDD boundaries, the platform, Conway-driven team alignment
+- [Production-Ready Microservices](production-ready-microservices.md) — Susan Fowler's eight-principle production-readiness standard + checklist for a uniform availability bar across a service ecosystem
+- [Architecting for Scale](architecting-for-scale.md) — Atchison's five focus areas: availability vs reliability, the risk matrix, service decomposition, graceful degradation, self-service capacity
+- [Design It!](design-it.md) — risk-driven architecture + design thinking: significant decisions, quality attributes/ASRs, empathize-define-ideate-prototype, views, design studios, ADRs
+- [Developing Large Web Applications](developing-large-web-applications.md) — a growing website as engineered software: stack-wide modularity, loose coupling, clear interfaces to hold complexity down
+- [Refactoring: Ruby Edition](refactoring-ruby-edition.md) — Fowler's discipline in idiomatic Ruby: blocks, modules, metaprogramming moves, the Metaprogramming Madness smell
+- [JavaScript: The Good Parts](javascript-the-good-parts.md) — Crockford's case for programming in JavaScript's elegant subset and avoiding its many traps
+- [97 Things Every Programmer Should Know](97-things-every-programmer-should-know.md) — crowd-sourced essays converging on durable disciplines: craft, simplicity, readability, testing, owning your growth
+- [The Productive Programmer](the-productive-programmer.md) — Neal Ford on killing friction and repetition: mechanics (keyboard, search, automation, DRY tooling) + practice (TDD, static analysis, timeless principles)
+- [The Senior Software Engineer](the-senior-software-engineer.md) — seniority is effectiveness and leadership, not years: deliver business value, decide with data, lead technically
+- [Pragmatic Thinking and Learning](pragmatic-thinking-and-learning.md) — Andy Hunt on refactoring your "wetware": Dreyfus novice→expert, L-mode/R-mode, deliberate learning, debugging your own biases
+- [The Mythical Man-Month](the-mythical-man-month.md) — Brooks: why people and months aren't interchangeable, conceptual integrity, and why there's no silver bullet
+- [The Way of the Web Tester](the-way-of-the-web-tester.md) — the testing pyramid, why UI tests are brittle, Page Objects, keeping a suite fast/isolated/CI-friendly
+- [Web Security: A WhiteHat Perspective](web-security.md) — a defender-mindset tour of web attacks (XSS, CSRF, injection, clickjacking) and running an SDL at scale
+- [Essential Cybersecurity Science](essential-cybersecurity-science.md) — the scientific method (hypothesis, controlled experiment, measurement, reproducibility) applied to security claims
+- [REST API Design Rulebook](rest-api-design-rulebook.md) — Massé's prescriptive rules: URI/resource archetypes, HTTP method & status-code semantics, metadata, hypermedia, versioning
+- [Don't Make Me Think](dont-make-me-think.md) — Krug's web-usability classic: make it self-evident, design for scanning, test cheaply with a few users
