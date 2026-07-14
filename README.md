@@ -19,8 +19,13 @@ hal/
 ├── wiki/              # the knowledge: one markdown note per concept
 │   └── index.md       # catalog of notes
 └── sources/
+    ├── inbox/         # drop raw images here to process later (the intake queue)
     └── images/        # immutable original PNGs referenced by notes
 ```
+
+Bulk images: drop files into `sources/inbox/` and run `/hal-image` — it lists what's
+pending, processes each into a note, and moves it to `sources/images/`. An empty inbox
+means nothing is waiting.
 
 Every note is one file. Notes link to each other with normal markdown links, so the
 folder is really a graph. Topics are just tags and (when they grow) subfolders under

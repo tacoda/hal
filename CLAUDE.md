@@ -44,6 +44,9 @@ Omit `source` for `Note`. Use ISO dates for `timestamp`.
   speculatively — flat until it earns a folder.
 - Stored images go in `sources/images/<slug>.png`. Never edit files under `sources/` —
   they are the immutable originals.
+- `sources/inbox/` is the intake queue: drop raw image files there to process later.
+  Anything in `inbox/` is unprocessed by definition; `/hal-image` moves each out to
+  `sources/images/` as it writes the note, so an empty inbox means nothing is pending.
 
 ## Note body
 
