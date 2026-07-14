@@ -54,3 +54,12 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [The AI Factory Stack](ai-factory-stack.md) — LLM/RAG/VectorDB/Agent/MCP/Guardrails/Evals, one role each
 - [The 7 AI Architecture Maps Every Leader Should Know](seven-ai-architecture-maps.md) — strategy→value governed AI architecture
 - [CRESS: A Context-Quality Checklist](cress-context-checklist.md) — Current/Refutable/Empirical/Small/Specific
+- [Agent Patterns Quick Reference](agent-patterns-quick-reference.md) — RALPH loop, beads, multi-phase, subagents, swarms
+- [Claude Code Pro Tips](claude-code-pro-tips.md) — CLAUDE.md/AGENTS.md structure, hooks, models, sessions
+- [MCP Configuration Reference](mcp-configuration-reference.md) — MCP server config, popular servers, security
+- [Loop Engineering: The Anthropic Playbook](loop-engineering-playbook.md) — 4th layer above the harness; 5 moves, 6 parts, generator/evaluator
+- [Agentic Auto-Scheduling: COMPILOT](compilot-llm-loop-optimization.md) — off-the-shelf LLM + compiler feedback loop for loop optimization
+- [Scaling Laws for Agent Harnesses (EFC)](scaling-laws-agent-harnesses-efc.md) — effective feedback compute predicts success better than raw compute
+- [A Common-Sense Guide to AI Engineering](common-sense-guide-to-ai-engineering.md) — Jay Wengrow book: foundations → chatbots → agents → production
+- [Claude Code One-Day Training Workbook](claude-code-one-day-training-workbook.md) — Closedloop.ai intensive: primitives, planning, review, workflows, tokens
+- [Writing a GOVERNANCE.md](governance-md-guide.md) — 5Ws + How of open-source project governance files
