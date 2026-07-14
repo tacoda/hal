@@ -22,6 +22,10 @@ Ingest a URL into the HAL knowledge base. Read `CLAUDE.md` for the schema first.
      (the URL).
    - Body: a clean synthesis **in your own words** — key ideas, definitions, takeaways.
      Not a transcript. Cross-link related notes with markdown links.
+   - **Visuals:** if the page explains an inherently visual concept — a layered stack, a
+     loop/cycle, a flow, an architecture — recreate it as a **mermaid** diagram (GitHub
+     renders it) with an appropriate chart type. Only when it aids understanding; for
+     prose, tables, or lists, words are enough.
    - End with:
      ```
      ## References

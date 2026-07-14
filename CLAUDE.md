@@ -17,11 +17,14 @@ an OKF v0.1 bundle.
 ## Note types
 
 - `Reference` — synthesized from an external source: a URL (via `/hal-url`) or a local
-  PDF/HTML document (via `/hal-doc`)
-- `Image` — extracted from a pasted/ingested image (via `/hal-image`). The image itself
-  is **not** retained — ingested images are pixelated and low-value; the extracted note is
-  what matters. Omit `source` (there is no stored file).
-- `Note` — a small freeform note I wrote (via `/hal-note`)
+  PDF/HTML we ingest then delete (via `/hal-doc`). `source` is the canonical URL whenever
+  there is one — which is almost always, including books and papers (link to the work's
+  website). Omit `source` only for a non-copyrighted local file that has no URL.
+- `Image` — extracted from a pasted/ingested image (via `/hal-image`). The image is
+  dropped after extraction (pixelated, low-value; the note is what matters). No `source`.
+- `Note` — a concrete note on how I implement the general standards and ideas already in
+  the wiki: my applied workflow and work style, made specific (via `/hal-note`). No
+  `source`; cross-link to the general note(s) it puts into practice.
 - `Index` — a catalog file (`index.md`)
 
 ## Frontmatter template
@@ -32,11 +35,11 @@ type: Reference          # required
 title: Attention Is All You Need
 tags: [transformers, attention, nlp]
 timestamp: 2026-07-14
-source: https://arxiv.org/abs/1706.03762   # URL, or sources/docs/<slug>.<ext>; omit for Note/Image
+source: https://arxiv.org/abs/1706.03762   # canonical URL; omit only for Note, Image, or a non-copyrighted local file with no URL
 ---
 ```
 
-Omit `source` for `Note`. Use ISO dates for `timestamp`.
+Use ISO dates for `timestamp`.
 
 ## Where files go
 
@@ -45,21 +48,17 @@ Omit `source` for `Note`. Use ISO dates for `timestamp`.
 - When a topic accumulates several notes, group them in a subfolder
   (`wiki/transformers/…`) and give it its own `index.md`. Don't create subfolders
   speculatively — flat until it earns a folder.
-- Stored originals: only PDF/HTML documents you own or that are freely licensed, in
-  `sources/docs/<slug>.<ext>`. Never edit files under `sources/` — they are immutable.
-  **Ingested images are not stored** — extract the information into the note and delete
-  the image (it's pixelated and adds nothing over the note).
-- **Copyright rule (applies to all books and copyrighted material):** never commit a
-  copyrighted third-party document — books, papers, commercial/course PDFs — to the repo.
-  Keep the synthesized note (a summary in our own words is fair use) but do **not** store
-  the file: set the note's `source` to the canonical online URL and link to that URL in
-  `## References`, exactly like a `/hal-url` note. Delete the inbox copy once the note is
-  written. When in doubt about whether something is copyrighted, treat it as copyrighted.
-- `sources/inbox/` is the shared intake queue: drop raw images, PDFs, or HTML files
+- **Nothing is stored permanently — there is no asset store.** Every source is one of:
+  - **A URL** (the standard case). Link to it; `source:` is the URL. This covers web pages
+    (`/hal-url`) *and* all copyrighted material — books, papers, courses: ingest the
+    content into a note, remove any inbox file, and link to the work's website. Never
+    commit a copyrighted file. When in doubt about copyright, treat it as copyrighted.
+  - **A non-copyrighted local file** — image, PDF, or HTML dropped in `inbox/`, with no
+    URL. Ingest the content into the note, then **delete** the file; omit `source`.
+- `inbox/` (top level) is the intake queue for local files: drop images, PDFs, or HTML
   there to process later. Anything in `inbox/` is unprocessed by definition; `/hal-image`
-  and `/hal-doc` clear each from the queue as they write the note — storing only
-  self-owned/free documents in `sources/docs/`, and **deleting** images and copyrighted
-  material after extracting/linking. An empty inbox means nothing is pending.
+  and `/hal-doc` clear each as they write the note — dropping non-copyrighted files, and
+  linking-then-dropping copyrighted ones. An empty inbox means nothing is pending.
 
 ## Note body
 
@@ -71,9 +70,8 @@ Omit `source` for `Note`. Use ISO dates for `timestamp`.
    renders mermaid in markdown). Pick an appropriate chart type and keep it faithful. Do
    this *only* when the picture adds understanding; for a table or a short list, words are
    enough. Never embed pixelated source images.
-4. A final `## References` section linking to the source: a URL for linked/copyrighted
-   material, or `../sources/docs/<slug>.<ext>` for a stored document. Image notes have no
-   `## References` (nothing is stored).
+4. A final `## References` section linking to the source URL. A note built from a
+   dropped local file with no URL has no `## References` (nothing is stored, no link).
 
 ## Maintaining the catalog
 
