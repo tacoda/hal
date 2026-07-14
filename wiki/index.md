@@ -63,3 +63,8 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [A Common-Sense Guide to AI Engineering](common-sense-guide-to-ai-engineering.md) — Jay Wengrow book: foundations → chatbots → agents → production
 - [Claude Code One-Day Training Workbook](claude-code-one-day-training-workbook.md) — Closedloop.ai intensive: primitives, planning, review, workflows, tokens
 - [Writing a GOVERNANCE.md](governance-md-guide.md) — 5Ws + How of open-source project governance files
+- [Vibe Coding](vibe-coding.md) — let the model drive without reading the code; safe for throwaways, risky in production
+- [Spec-Driven Development](spec-driven-development.md) — spec first as durable intent; the structured counterpart to vibe coding
+- [Coding Interfaces](coding-interfaces.md) — the AI-driving surface adapts as autonomy rises; the frontier is review, not the IDE's death
+- [Context Engineering](context-engineering.md) — smallest set of high-signal tokens; fight context rot with progressive disclosure + compaction
+- [Evals & LLM-as-a-Judge](evals-llm-as-a-judge.md) — if context is the new code, evals are its tests; run on your codebase, not public benchmarks
