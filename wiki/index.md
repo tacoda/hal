@@ -103,3 +103,49 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [Agentic Maturity Models](agentic-maturity-models.md) — staged path from ad-hoc AI to agent-native delivery; can't skip levels; pace metrics to the stage
 - [Cost Management](cost-management.md) — FinOps for agents; ~4×/15× token cost, 25:1 in:out; report cost per merged PR; autonomy becomes an economic decision
 - [Org Shape & Team Size](org-shape-team-size.md) — agents shrink teams but relocate the bottleneck; team gains vanish at company level unless you redraw hand-offs (Amdahl)
+
+## Source notes
+
+Primary sources cited by the pattern notes above, ingested directly (via `/hal-url`).
+
+- [Vibe Coding vs. Spec-Driven Development](vibe-coding-vs-spec-driven-development.md) — RedMonk: specs as source of intention, not truth; vibe vs spec is yes-and
+- [Understanding SDD: Kiro, spec-kit, Tessl](understanding-sdd-kiro-spec-kit-tessl.md) — Böckeler untangles SDD into three levels across three tools
+- [Introducing Kiro](introducing-kiro.md) — AWS agentic IDE: Requirements→Design→Tasks specs with EARS criteria + agent hooks
+- [GitHub Spec Kit](github-spec-kit.md) — CLI slash-commands (constitution/specify/plan/tasks/implement) for spec-driven dev
+- [BMAD Method](bmad-method.md) — the heavy end: a pipeline of role-played agents before any code
+- [mattpocock/skills](mattpocock-skills.md) — the light end: composable SKILL.md files; grill-me
+- [Chamber of Tech Secrets #54: Spec-Driven Development](chamber-of-tech-secrets-spec-driven-development.md) — keeping AI dev reliable and still vibey via lightweight specs
+- [The New Code: Specs as the Source of Truth](the-new-code-specs-as-source-of-truth.md) — Grove/OpenAI: spec is source, code the lossy compiled output
+- [LLM-as-a-Judge — A Complete Guide](llm-as-a-judge-complete-guide.md) — Hamel: critique shadowing, binary verdicts, validate judge vs human
+- [LLM Evals FAQ](llm-evals-faq.md) — error analysis is the game; binary over Likert; generic metrics are useless
+- [Why AI Evals Are the Hottest New Skill](why-ai-evals-are-the-hottest-skill.md) — Lenny's w/ Hamel & Shreya: evals as highest-ROI skill
+- [Shipping Products When You Don't Know What They Can Do](shipping-products-you-dont-know.md) — Ben Stein: PM work on probabilistic agents, eval = spec
+- [A Proposed Evaluation Framework for Coding Agents](tessl-coding-agent-eval-framework.md) — versioned doc "tiles" lift idiomatic API use ~35%
+- [Loop Engineering: The Software Factory](loop-engineering-software-factory.md) — Jazz Tong's primary source: engineer the loops that prompt agents (5 ingredients)
+- [Ralph Wiggum as a Software Engineer](ralph-wiggum-software-engineer.md) — Huntley's while-loop: eventual consistency, tune the loop, state in files
+- [Everything Is a Ralph Loop](everything-is-a-ralph-loop.md) — Huntley manifesto: give it a goal then loop the goal; AFK auto-heal
+- [Building Effective Agents](building-effective-agents.md) — Anthropic: workflows vs agents, the 5 building blocks, ACI advice
+- [Measuring AI Ability to Complete Long Tasks](measuring-ai-long-tasks.md) — METR: task-completion horizon doubling ~every 7 months
+- [Cursor's Agent Swarm Built a Browser](cursor-agent-swarm-browser.md) — GPT-5.2 swarm built a browser unattended across millions of LOC
+- [Why Cline Doesn't Index Your Codebase](why-cline-doesnt-index-your-codebase.md) — RAG chunking tears code logic apart; discovery beats a stale index
+- [Agent Memory Systems and Knowledge Graphs](agent-memory-systems-knowledge-graphs.md) — Letta/Mem0/Graphiti/Cognee compared at code level
+- [Aider Repository Map](aider-repository-map.md) — tree-sitter + graph-ranking token-budgeted map, no embeddings
+- [Best AI Agent Memory 2026](best-ai-agent-memory-2026.md) — decision tree: pick by the shape of your memory problem
+- [Voyager — Open-Ended Embodied Agent](voyager-embodied-agent.md) — skill library of executable code → 3.3× discovery, 15.3× faster
+- [Zep — Temporal Knowledge Graph for Agent Memory](zep-temporal-knowledge-graph.md) — Graphiti's bi-temporal graph; invalidates facts instead of deleting
+- [Architecting Agent Memory](architecting-agent-memory.md) — Alake: memory = organizing the window; generate→store→retrieve→update→forget
+- [The Five Levels: Spicy Autocomplete to Dark Factory](five-levels-spicy-autocomplete-to-dark-factory.md) — driving levels mapped to AI coding autonomy
+- [The StrongDM Software Factory](strongdm-software-factory.md) — no human writes/reviews; validation vs a Digital Twin Universe replaces review
+- [Built by Agents, Tested by Agents, Trusted by Whom?](built-by-agents-tested-by-agents.md) — when builder and tester are one system, independent trust vanishes
+- [Gas Town and the Rise of AI Factories](gastown-rise-of-ai-factories.md) — Yegge: Claude Code running Claude Code; Beads gives agents durable memory
+- [Agent Harness Engineering (Osmani)](agent-harness-engineering-osmani.md) — model+scaffolding; harness accumulates from failure history; HaaS
+- [2025 Was Agents, 2026 Is Agent Harnesses](2025-agents-2026-agent-harnesses.md) — the model is commodity; the harness is the moat
+- [My AI Adoption Journey (Hashimoto)](my-ai-adoption-journey.md) — six steps to agents-always-running; step 5 = engineer the harness
+- [AI Coding Sensors (Böckeler)](ai-coding-sensors.md) — feed-forward vs feedback; sensors let an agent raise its own quality
+- [Harness Engineering with Codex (OpenAI)](harness-engineering-openai-codex.md) — 1M LOC in 5 months, 0 hand-written; humans move up a layer
+- [Extreme Harness Engineering for Token Billionaires](extreme-harness-engineering-token-billionaires.md) — 0% human review, >1B tokens/day, attention is the bottleneck
+- [Claude Skills (Willison)](claude-skills-willison.md) — Skills = folder + SKILL.md; simpler than MCP, progressive disclosure, portable
+- [Serving LLMs 24× Faster with vLLM + SkyPilot](serving-llms-vllm-skypilot.md) — PagedAttention + continuous batching; you own the serving tax
+- [LiteLLM](litellm.md) — one OpenAI-format interface to 100+ LLMs; router + gateway
+- [Gateways Are All You Need](gateways-are-all-you-need.md) — MCP gateway as root of trust; decouple the harness from the data
+- [Tokenomics — Where Tokens Are Used in Agentic SE](tokenomics.md) — token spend mapped across SDLC phases in a multi-agent system
