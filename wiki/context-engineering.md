@@ -98,6 +98,8 @@ flowchart LR
   models make boilerplate unnecessary; same minimal-but-high-signal ethos.
 - [Self-improving harness loop](self-improving-harness-loop.md) — where the
   loaded context comes from and how it's refined.
+- [Memory engineering](memory-engineering.md) — the durable counterpart:
+  context manages the live window, memory manages what outlives it.
 
 ## References
 - [Context Engineering — Tessl Patterns](https://tessl.io/patterns/agentic-development-workflow/context-engineering/)

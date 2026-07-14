@@ -102,6 +102,10 @@ Maps onto [The AI Learning Ladder](ai-learning-ladder.md) layers 8–9 (AI Agent
 Production AI): orchestration, verification, and operations are what turn a bare LLM
 into a reliable production system.
 
+See [Harness Engineering (Sensors & Simulators)](harness-engineering.md) for the
+inner/outer split and the sensor/simulator feedback framing — the verifier layer here
+is that note's "feedback" half.
+
 ## References
 
 - [What Is Agent Harness Engineering? — Anubhav, Data Science Collective (Medium)](https://medium.com/data-science-collective/what-is-agent-harness-engineering-the-architecture-doing-80-of-the-work-in-every-production-agent-00c89931d235)

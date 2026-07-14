@@ -84,7 +84,8 @@ infographic and [The Autonomy Ladder](autonomy-ladder.md). It sits one floor abo
 is that note's verification layer; the failure list parallels
 [Six Friction Clusters](agent-harness-friction-clusters.md). Uses the patterns in
 [Agent Patterns Quick Reference](agent-patterns-quick-reference.md) and connectors from
-[MCP Configuration Reference](mcp-configuration-reference.md).
+[MCP Configuration Reference](mcp-configuration-reference.md). See also the shorter
+Tessl framing in [Loop Engineering](loop-engineering.md) (five loop ingredients + Ralph).
 
 ## References
 

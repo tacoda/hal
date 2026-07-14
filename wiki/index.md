@@ -68,3 +68,7 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [Coding Interfaces](coding-interfaces.md) — the AI-driving surface adapts as autonomy rises; the frontier is review, not the IDE's death
 - [Context Engineering](context-engineering.md) — smallest set of high-signal tokens; fight context rot with progressive disclosure + compaction
 - [Evals & LLM-as-a-Judge](evals-llm-as-a-judge.md) — if context is the new code, evals are its tests; run on your codebase, not public benchmarks
+- [Harness Engineering (Sensors & Simulators)](harness-engineering.md) — inner vs outer harness; feed-forward context + feedback sensors/simulators that accumulate from failures
+- [Loop Engineering](loop-engineering.md) — the layer above the harness; five loop ingredients + the Ralph pattern; you engineer the loop, not the prompt
+- [Memory Engineering](memory-engineering.md) — the durable layer between runs; episodic/semantic/procedural; RAG → files → knowledge graphs
+- [Dark Factory](dark-factory.md) — the end state of loop engineering; agents build/test/ship with the lights off, humans define intent + review outcomes
