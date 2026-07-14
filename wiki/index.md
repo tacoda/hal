@@ -359,3 +359,19 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [Kubernetes: Up and Running (3rd ed.)](kubernetes-up-and-running.md) — the reconciler/control-loop pattern: declare desired state, continuously converge reality to it
 - [Designing Distributed Systems](designing-distributed-systems.md) — sidecar, ambassador, scatter-gather, work-queue: a pattern language for wiring systems (and agents)
 - [Building Secure and Reliable Systems (Google)](building-secure-and-reliable-systems.md) — least privilege and the reconciler as safety mechanism; security and reliability as one discipline
+- [Building Microservices (2nd ed.)](building-microservices.md) — Sam Newman: decompose around bounded contexts, independent deployability, integration styles, strangler-fig migration, the operational tax
+- [Fundamentals of Software Architecture](fundamentals-of-software-architecture.md) — Richards & Ford: architecture characteristics, a catalog of styles, components, the architect's soft skills — everything is a trade-off
+- [The Software Architect Elevator](software-architect-elevator.md) — Gregor Hohpe: the architect riding between penthouse and engine room; architecture as selling priced options
+- [Software Architecture: The Hard Parts](software-architecture-the-hard-parts.md) — trade-off analysis for distributed architectures: decomposition, pulling data apart, sagas, contracts; "no best practices, only trade-offs"
+- [Building Evolutionary Architectures](building-evolutionary-architectures.md) — Ford/Parsons/Kua: fitness functions as automated architectural guardrails; guided, incremental change
+- [Software Architecture in Practice](software-architecture-in-practice.md) — the SEI foundation: quality attributes and scenarios, tactics, the ATAM evaluation method, views/documentation
+- [Team Topologies](team-topologies.md) — Skelton & Pais: four team types, three interaction modes, Conway's Law + the inverse maneuver, cognitive load, platform-as-a-product
+- [The DevOps Handbook](devops-handbook.md) — Kim/Humble/Debois/Willis: the Three Ways (flow, feedback, continual learning) via pipelines, telemetry, generative culture
+- [The Phoenix Project](phoenix-project.md) — Gene Kim: DevOps as a business novel; the Three Ways, four types of work, the Theory-of-Constraints lineage
+- [Infrastructure as Code](infrastructure-as-code.md) — Kief Morris: infra config as versioned code — immutability, idempotence, small changes, and IaC patterns/anti-patterns
+- [Observability Engineering](observability-engineering.md) — Majors/Fong-Jones/Miranda: unknown-unknowns vs the three-pillars critique; wide structured events, high cardinality, tracing, SLOs, testing in production
+- [Chaos Engineering](chaos-engineering.md) — Rosenthal & Jones: experiment on a system to build confidence in its resilience — steady-state hypothesis, real-world events, minimize blast radius, game days
+- [Growing Object-Oriented Software, Guided by Tests](growing-object-oriented-software.md) — Freeman & Pryce: London-school outside-in TDD — walking skeleton, nested loops, "listen to the tests"
+- [The Goal](the-goal.md) — Goldratt's business novel founding the Theory of Constraints: throughput/inventory/operating-expense, the five focusing steps, ancestor of Lean and DevOps
+- [Peopleware](peopleware.md) — DeMarco & Lister: software problems are sociological not technical — flow, the office, teamicide vs jelled teams, keeping good people
+- [Refactoring to Patterns](refactoring-to-patterns.md) — Kerievsky marries Fowler's Refactoring to the GoF patterns: evolve to/toward/away from patterns via small tested steps guided by smells
