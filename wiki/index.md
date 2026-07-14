@@ -327,3 +327,35 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [You Don't Need Sub-Agents (Vinogradov)](you-dont-need-sub-agents.md) — multi-agent swarms recreate Brooks's coordination cost; a single loop wins
 - [The Middle Loop (Vella)](the-middle-loop.md) — the supervisory layer between the agent's inner loop and the human's outer loop
 - [AI Replaced 80% of Coding (Gaddam)](ai-replaced-80-percent-of-coding.md) — syntax is automated, engineering isn't; value migrates to design, trade-offs, debugging, reliability
+- [On the Criteria To Be Used in Decomposing Systems into Modules](parnas-decomposing-systems-into-modules.md) — Parnas 1972: modularize around what's likely to change and hide it, not around processing steps
+- [Design Patterns (Gang of Four)](design-patterns-gof.md) — the GoF's 23 patterns and a shared vocabulary: program to interfaces, favor composition
+- [A Philosophy of Software Design](a-philosophy-of-software-design.md) — Ousterhout: complexity is the enemy; build deep modules — simple interfaces over substantial hidden implementation
+- [Code Complete (2nd ed.)](code-complete.md) — McConnell's evidence-based handbook of software construction, all in service of managing complexity
+- [Implementing Domain-Driven Design](implementing-domain-driven-design.md) — Vernon's practical "red book": strategic design first, small aggregates, keep the domain pure
+- [Tidy First?](tidy-first.md) — Kent Beck: separate structural from behavioral change, never mix them in one commit
+- [Extreme Programming Explained (2nd ed.)](extreme-programming-explained.md) — Beck's XP as values/principles/practices; flatten the cost-of-change curve with fast feedback
+- [Continuous Delivery](continuous-delivery.md) — Humble & Farley: keep every commit releasable via an automated deployment pipeline; build the binary once
+- [Unit Testing: Principles, Practices, and Patterns](unit-testing-khorikov.md) — Khorikov's four pillars; mock unmanaged dependencies, use real managed ones
+- [xUnit Test Patterns](xunit-test-patterns.md) — Meszaros: the test-double taxonomy, test smells, the four-phase test
+- [Release It! (2nd ed.)](release-it.md) — Nygard: circuit breaker, bulkhead, timeouts, steady state; capacity patterns; the operational mindset
+- [Designing Machine Learning Systems](designing-machine-learning-systems.md) — Chip Huyen: in production ML, data/deployment/monitoring dominate; the model is the easy part
+- [AI Engineering (Chip Huyen)](ai-engineering-huyen.md) — from training models to building reliable apps on them: evaluation, the adaptation ladder, prompt management, observability
+- [Resilience Engineering: Four Concepts (Woods)](resilience-engineering-woods.md) — rebound, robustness, graceful extensibility, sustained adaptability; optimization breeds brittleness at the boundary
+- [The Field Guide to Understanding 'Human Error'](field-guide-to-human-error.md) — Dekker: human error is where an investigation starts, not ends; Old View blame vs New View conditions
+- [Site Reliability Engineering (SRE Book + Workbook)](site-reliability-engineering.md) — Google's SLI/SLO discipline, error budgets, toil elimination, sustainable on-call
+- [Accelerate](accelerate.md) — the science behind the four DORA metrics: deploy frequency, lead time, change-fail rate, MTTR
+- [Lean Thinking](lean-thinking.md) — Womack & Jones's five principles: value, value stream, flow, pull, perfection
+- [Toyota Kata](toyota-kata.md) — the improvement kata and coaching kata: daily scientific-thinking routines behind continuous improvement
+- [The Checklist Manifesto](the-checklist-manifesto.md) — Gawande on checklists as a discipline against failures of ineptitude under complexity
+- [Software Requirements (3rd ed.)](software-requirements.md) — Wiegers & Beatty on eliciting requirements and writing falsifiable acceptance criteria
+- [User Stories Applied](user-stories-applied.md) — Mike Cohn's stories-as-conversation, INVEST, card/conversation/confirmation
+- [ATDD by Example](atdd-by-example.md) — Gärtner's guide to acceptance-test-driven development via discuss/distill/develop/demo
+- [Specification by Example](specification-by-example.md) — Adzic's executable acceptance tests as living documentation; seven process patterns
+- [Thinking in Systems](thinking-in-systems.md) — Meadows on stocks, flows, feedback loops, and the ranked list of leverage points
+- [Categorical Logic and Type Theory (Jacobs)](categorical-logic-and-type-theory.md) — fibrations unify predicate logic and type theory; the categorical Curry–Howard–Lambek
+- [Naive Set Theory (Halmos)](naive-set-theory.md) — functions and relations as sets of ordered pairs; the substrate under types, data models, program state
+- [Predicate Calculus and Program Semantics (Dijkstra & Scholten)](predicate-calculus-and-program-semantics.md) — the weakest-precondition predicate transformer: correctness as calculation, not testing
+- [Cybernetics (Wiener)](cybernetics-wiener.md) — the founding text: control as feedback and information, in animal and machine
+- [Kubernetes: Up and Running (3rd ed.)](kubernetes-up-and-running.md) — the reconciler/control-loop pattern: declare desired state, continuously converge reality to it
+- [Designing Distributed Systems](designing-distributed-systems.md) — sidecar, ambassador, scatter-gather, work-queue: a pattern language for wiring systems (and agents)
+- [Building Secure and Reliable Systems (Google)](building-secure-and-reliable-systems.md) — least privilege and the reconciler as safety mechanism; security and reliability as one discipline
