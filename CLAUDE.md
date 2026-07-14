@@ -16,12 +16,14 @@ an OKF v0.1 bundle.
 
 ## Note types
 
-- `Reference` — synthesized from an external source: a URL (via `/hal-url`) or a local
-  PDF/HTML we ingest then delete (via `/hal-doc`). `source` is the canonical URL whenever
-  there is one — which is almost always, including books and papers (link to the work's
-  website). Omit `source` only for a non-copyrighted local file that has no URL.
-- `Image` — extracted from an image dropped in `inbox/` (via `/hal-image`). The image is
-  dropped after extraction (pixelated, low-value; the note is what matters). No `source`.
+- `Reference` — synthesized from an external source: a web page or a video (via
+  `/hal-url` — videos are transcribed, YouTube/Vimeo), or a local PDF/HTML we ingest then
+  delete (via `/hal-doc`). `source` is the canonical URL whenever there is one — which is
+  almost always, including books and papers (link to the work's website). Omit `source`
+  only for a non-copyrighted local file that has no URL.
+- `Image` — extracted from an image dropped in `inbox/` (via `/hal-doc`, which branches to
+  the image path for jpg/jpeg/png/gif/webp). The image is dropped after extraction
+  (pixelated, low-value; the note is what matters). No `source`.
 - `Note` — a concrete note on how I implement the general standards and ideas already in
   the wiki: my applied workflow and work style, made specific (via `/hal-note`). No
   `source`; cross-link to the general note(s) it puts into practice.
@@ -56,9 +58,10 @@ Use ISO dates for `timestamp`.
   - **A non-copyrighted local file** — image, PDF, or HTML dropped in `inbox/`, with no
     URL. Ingest the content into the note, then **delete** the file; omit `source`.
 - `inbox/` (top level) is the intake queue for local files: drop images, PDFs, or HTML
-  there to process later. Anything in `inbox/` is unprocessed by definition; `/hal-image`
-  and `/hal-doc` clear each as they write the note — dropping non-copyrighted files, and
-  linking-then-dropping copyrighted ones. An empty inbox means nothing is pending.
+  there to process later. Anything in `inbox/` is unprocessed by definition; `/hal-doc`
+  clears each as it writes the note — branching to the image path for images and the
+  document path for PDF/HTML, dropping non-copyrighted files, and linking-then-dropping
+  copyrighted ones. An empty inbox means nothing is pending.
 
 ## Note body
 

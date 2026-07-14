@@ -1,24 +1,55 @@
 ---
 name: hal-doc
-description: Ingest a local PDF or HTML document into HAL — one you name, or a batch dropped in inbox/. Extracts the content into a synthesized note under wiki/, links to the source URL when there is one (always for books/papers/courses — link to the work's website), then deletes the local file. Nothing is stored. Use for a .pdf or .html/.htm file on disk. For a web URL, use hal-url; for an image, hal-image.
+description: Ingest a local file into HAL — a PDF, HTML, or image — one you name, or a batch dropped in inbox/. Branches on type: images (jpg/jpeg/png/gif/webp) are extracted to an Image note then dropped; documents (pdf/html/htm) are synthesized into a Reference note linked to their source URL then dropped. Nothing is stored. For a web URL or video, use hal-url instead.
 ---
 
 # hal-doc
 
-Ingest local PDF/HTML document(s) into the HAL knowledge base. Read `CLAUDE.md` for the
-schema first. **Nothing is stored** — every note either links to a URL or is a
-notes-only extraction of a dropped local file.
+Ingest local file(s) — PDF, HTML, or image — into the HAL knowledge base. Read
+`CLAUDE.md` for the schema first. **Nothing is stored** — every note either links to a
+URL or is a notes-only extraction of a dropped local file, and the file is removed after.
 
 ## Two modes
 
-- **Named file** — the user points at one `.pdf` / `.html` / `.htm` file on disk.
-- **Inbox** — the user dropped document files into `inbox/` (the shared intake queue).
-  Anything in `inbox/` is unprocessed by definition.
+- **Named file** — the user points at one file on disk.
+- **Inbox** — the user dropped files into `inbox/` (the shared intake queue). Anything in
+  `inbox/` is unprocessed by definition.
 
-With no named file and no clear instruction, run `ls inbox/`, show the pending documents,
-and ask which to process (default: all).
+With no named file and no clear instruction, run `ls inbox/`, show the pending files, and
+ask which to process (default: all).
 
-## Steps (per document)
+## Branch on file type
+
+Check the extension and route each file:
+
+- **Image** — `.jpg` / `.jpeg` / `.png` / `.gif` / `.webp` → **Image path** (extract, no
+  source, drop the file; the pixels are low-value, the note is what matters).
+- **Document** — `.pdf` / `.html` / `.htm` → **Document path** (synthesize, link to the
+  source URL, drop the file). A PDF is a document even if it looks scanned.
+
+---
+
+## Image path (per image)
+
+1. `Read` the image file.
+2. Decide a title and kebab-case slug from its content; pick tags.
+3. Choose the note path: `wiki/<slug>.md` (or a topic subfolder if one fits). Check `wiki/`
+   for an existing note on the same topic — update instead of duplicating, and cross-link.
+4. Write the note:
+   - Frontmatter: `type: Image`, `title`, `tags`, `timestamp` (today). **No `source`** —
+     the image is not retained.
+   - Body: extract everything useful — text, table data, key points — as clean markdown,
+     in your own words. Cross-link related notes.
+   - **Visuals:** if the image is a diagram/flow/stack/cycle where a picture genuinely
+     helps, recreate it as a **mermaid** diagram (appropriate chart type). Only when it
+     helps — for a table or list of points, words are enough. Never embed the pixelated
+     original.
+   - No `## References` section (no stored file, no URL).
+5. **Delete the image:** `rm inbox/<file>` (or, for a named file elsewhere, leave the
+   user's own file where it is — just don't copy it into the repo).
+6. Append a pointer line to the nearest `index.md`.
+
+## Document path (per document)
 
 1. Read the content:
    - PDF: `Read` with the `pages` param (required over 10 pages; max 20/call — page
@@ -56,5 +87,6 @@ and ask which to process (default: all).
 
 ## Finish
 
-Report each note path and its source URL (or "notes-only, file dropped"). For inbox runs,
-confirm the inbox is empty (`ls inbox/`) — every processed document should be gone.
+Report each note path and, for documents, its source URL (or "notes-only, file dropped").
+For inbox runs, confirm the inbox is empty (`ls inbox/`) — every processed file should be
+gone.
