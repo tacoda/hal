@@ -1,6 +1,6 @@
 ---
 name: hal-query
-description: Query the HAL knowledge base. Answers the user's question from the notes with citations, then offers related notes/topics — expanding on them only if asked. Use when the user asks a question rather than adding content.
+description: Answer a specific question from the HAL knowledge base with citations, then offer related notes/topics — expanding on them only if asked. Use when the user asks a pointed question (who/what/when/does/how many). For explaining a concept, use hal-explain instead.
 ---
 
 # hal-query

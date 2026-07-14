@@ -35,7 +35,8 @@ Four skills, matching how I work:
 | `/hal-url`   | I paste a URL                 | Fetches it, writes a note, links the source at the bottom           |
 | `/hal-image` | I paste an image              | Stores the PNG in `sources/images/`, extracts info into a note      |
 | `/hal-note`  | I have a small note to add    | Writes a short freeform note                                        |
-| `/hal-query` | I have a question             | Answers from the wiki with citations, offers related topics on ask  |
+| `/hal-query`   | I have a pointed question   | Answers the fact from the wiki with citations, offers related topics |
+| `/hal-explain` | I want a concept explained  | Builds a layered explanation from the wiki with citations           |
 
 Adding is capture; querying is retrieval. Most entries are references; some are notes.
 
