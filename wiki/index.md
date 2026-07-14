@@ -8,4 +8,4 @@ timestamp: 2026-07-14
 
 One markdown note per concept. Add a pointer line here on every new note.
 
-<!-- - [Title](slug.md) — one-line hook -->
+- [The AI Learning Ladder](ai-learning-ladder.md) — 10-layer AI skill roadmap, foundations first
