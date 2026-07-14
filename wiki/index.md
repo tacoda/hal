@@ -375,3 +375,5 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [The Goal](the-goal.md) — Goldratt's business novel founding the Theory of Constraints: throughput/inventory/operating-expense, the five focusing steps, ancestor of Lean and DevOps
 - [Peopleware](peopleware.md) — DeMarco & Lister: software problems are sociological not technical — flow, the office, teamicide vs jelled teams, keeping good people
 - [Refactoring to Patterns](refactoring-to-patterns.md) — Kerievsky marries Fowler's Refactoring to the GoF patterns: evolve to/toward/away from patterns via small tested steps guided by smells
+- [Monolith to Microservices](monolith-to-microservices.md) — Sam Newman's evolutionary playbook: when (and when not) to migrate, strangler fig / branch by abstraction / parallel run, and splitting the database with sagas
+- [Structure and Interpretation of Computer Programs (SICP)](sicp.md) — the Wizard Book: programs are written for people to read; manage complexity with primitives, combination, and abstraction, up to building your own languages
