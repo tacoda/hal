@@ -61,7 +61,8 @@ flowchart LR
 
 The artifact is disposable; **the learning is the deliverable**. Related to
 [spec-driven development](spec-driven-development.md) — vibe to explore, then
-rebuild what survives as understood code.
+rebuild what survives as understood code. Vibing on code that must be maintained
+is how you accrue [comprehension debt](comprehension-debt.md).
 
 ## References
 - [Vibe Coding — Tessl Patterns](https://tessl.io/patterns/agentic-development-workflow/vibe-coding/)

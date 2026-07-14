@@ -72,6 +72,8 @@ where baseline agents started from zero. (The accumulation engine behind the
   iterations.
 - [Self-Improving Harness Loop](self-improving-harness-loop.md) — memory is what
   makes the improvement stick.
+- [Registries](registries.md) — where procedural memory (a reusable skill
+  library) is published, versioned, and governed.
 
 ## References
 - [Memory Engineering — Tessl Patterns](https://tessl.io/patterns/agentic-development-workflow/memory-engineering/)

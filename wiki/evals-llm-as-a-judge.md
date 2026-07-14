@@ -49,9 +49,9 @@ flowchart TD
 
 ## Evals vs public benchmarks
 
-A **benchmark** scores a model on *someone else's* tasks; an **eval** runs on
-*your* codebase — the only place your context and skills actually have to
-perform. Tessl's own framework, over real library tasks, found spec + context
+A [**benchmark**](public-benchmarks.md) scores a model on *someone else's*
+tasks; an **eval** runs on *your* codebase — the only place your context and
+skills actually have to perform. Tessl's own framework, over real library tasks, found spec + context
 documentation lifted idiomatic API use **~35%** — a number that only exists
 because they built the eval to measure it.
 

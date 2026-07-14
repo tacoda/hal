@@ -35,4 +35,6 @@ The role that owns the "after AI" bottleneck in [Before AI / After AI](before-an
 (execution & adoption), and lives at the deployment end of the stacks in
 [Agentic Engineering Stack](agentic-engineering-stack.md) and
 [Agent Harness Engineering](agent-harness-engineering.md). Overlaps the Builder/Maintainer
-archetypes in [Five Engineering Archetypes](five-engineering-archetypes.md).
+archetypes in [Five Engineering Archetypes](five-engineering-archetypes.md). Close cousin of
+[The AI Product Engineer](ai-product-engineer.md) — the same discovery instinct, approached
+from the field.

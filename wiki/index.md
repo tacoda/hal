@@ -72,3 +72,34 @@ One markdown note per concept. Add a pointer line here on every new note.
 - [Loop Engineering](loop-engineering.md) — the layer above the harness; five loop ingredients + the Ralph pattern; you engineer the loop, not the prompt
 - [Memory Engineering](memory-engineering.md) — the durable layer between runs; episodic/semantic/procedural; RAG → files → knowledge graphs
 - [Dark Factory](dark-factory.md) — the end state of loop engineering; agents build/test/ship with the lights off, humans define intent + review outcomes
+- [Models — Match Models to Tasks](models.md) — not "best model" but "best model for this task, at this price"; proprietary vs open-weight, serving with vLLM
+- [Model Router](model-router.md) — one gateway all LLM calls pass through; centralizes routing, keys, caching, logging (where vs allowed vs worth)
+- [Guardrails Proxy](guardrails-proxy.md) — real-time policy/safety layer (injection, PII, moderation); necessary not sufficient, pairs with red-teaming
+- [Execution Sandboxing](execution-sandboxing.md) — run agent code as untrusted-code-from-the-internet; isolation by default is the precondition for autonomy
+- [MCP Gateway](mcp-gateway.md) — single root of trust for tool access; tames the observability/access/security hydra so MCP scales past the demo
+- [Registries](registries.md) — publish/discover/version/govern skills, tools, MCP servers, agents; a catalog + package manager in one index
+- [Agent Observability](agent-observability.md) — traces of every step/tool-call/handoff; the eval substrate and the governance layer when review goes away
+- [Agent Runtime](agent-runtime.md) — managed substrate that runs unattended loops; triggers, scheduler, sandboxed workers, lifecycle — a CI/CD runner farm for agents
+- [Automated QA](automated-qa.md) — agents test at the pace agents code; the running-software quality control; SWT-Bench shows writing a catching test is its own hard problem
+- [Public Benchmarks](public-benchmarks.md) — SWE-bench et al.; the coarse filter for what to trial — rot, leak, and aren't your codebase, so pair with your own evals
+- [Automated Review & Verification](automated-review-verification.md) — machine-checked diffs; verification asymmetry, adversarial reviewers; catches only what you specified
+- [AI Code Security](ai-code-security.md) — scan agent code as untrusted input; SAST/secrets/supply-chain shifted left; guards the artifact (vs runtime traffic, vs containment)
+- [Agent Identity & Access](agent-identity-access.md) — every agent its own identity + scoped perms; impersonation → delegation; identity is accountability
+- [AI-Code Provenance](ai-code-provenance.md) — record what produced each change (agent/model/prompt) at generation time; value is in the plumbing, not the policy
+- [The AI SDLC](ai-sdlc.md) — the lifecycle as agent-native pipeline spine; spec in, tested software out; sprints give way to "bolts"
+- [Agentic Coding vs AI Engineering](agentic-coding-vs-ai-engineering.md) — three roles under one buzzword; domain expertise beats ML depth for coding with agents
+- [From Coder to Orchestrator](from-coder-to-orchestrator.md) — authoring → directing; conductor (in loop) vs orchestrator (out of loop); the skill premium erodes, not the role
+- [Collaborating with Agents](collaborating-with-agents.md) — the per-task dial: clarity × risk routes each task to in-loop pairing or hand-off autonomy
+- [Comprehension Debt](comprehension-debt.md) — the gap between code that exists and code anyone understands; invisible to dashboards, compounds per unread change
+- [The AI Product Engineer](ai-product-engineer.md) — owns the outcome not the implementation; when code is cheap, product taste (what to build, what to cut) is scarce
+- [Learning the Craft](learning-the-craft.md) — the craft inverts, not vanishes: fundamentals matter more, syntax less; skill atrophy risk vs always-on tutor
+- [Hiring in the AI Era](hiring-in-the-ai-era.md) — closed-book coding screens stop predicting; hire integrators, allow AI in interviews, read tool-maturity proxies
+- [Rethinking Performance](rethinking-performance.md) — PR/commit volume inflates with AI; measure outcomes + system leverage, not code emitted
+- [Driving Adoption](driving-adoption.md) — licenses aren't adoption; proof beats mandates, engineers teach engineers, make the supported path the easy path
+- [Calculating ROI](calculating-roi.md) — net value after review/rework/tokens, not gross speed-up; perceived vs measured is the trap; segment by cohort
+- [Data Governance](data-governance.md) — what data agents can see/send/train on; leaks out (RAG doxing), in (training), and via excessive read (.env)
+- [AI Regulation & Compliance](ai-regulation.md) — EU AI Act reaches you extraterritorially; traceability = compliance; build the trail into the pipeline, not a dashboard
+- [Build vs Buy](build-vs-buy.md) — agents move the threshold, but cheap to build ≠ cheap to own; decide per-use-case, per-layer; "do we want to own it forever?"
+- [Agentic Maturity Models](agentic-maturity-models.md) — staged path from ad-hoc AI to agent-native delivery; can't skip levels; pace metrics to the stage
+- [Cost Management](cost-management.md) — FinOps for agents; ~4×/15× token cost, 25:1 in:out; report cost per merged PR; autonomy becomes an economic decision
+- [Org Shape & Team Size](org-shape-team-size.md) — agents shrink teams but relocate the bottleneck; team gains vanish at company level unless you redraw hand-offs (Amdahl)
