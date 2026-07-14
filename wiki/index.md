@@ -277,3 +277,53 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [Simplifying JavaScript](simplifying-javascript.md) — small refactors toward modern intent-revealing JS: const/let, template literals, destructuring, array methods, spread/rest, promises, modules
 - [Software Development Metrics](software-development-metrics.md) — Nicolette on picking process-fit metrics: flow (throughput, cycle/lead time, WIP, CFDs), Little's Law, forecasting, avoiding gaming
 - [SPA Design and Architecture](spa-design-and-architecture.md) — framework-agnostic anatomy of a single-page app: MV*, client routing, view composition, modules, data, testing
+- [Simple Made Easy](simple-made-easy.md) — Rich Hickey on why simple (untangled) beats easy (familiar), and complexity kills projects
+- [The C4 Model](c4-model.md) — Simon Brown's four-level (context/container/component/code) way to visualise software architecture
+- [Diátaxis](diataxis.md) — four irreducible documentation modes: tutorials, how-to guides, reference, explanation
+- [The Twelve-Factor App](twelve-factor-app.md) — twelve rules for portable, stateless, disposable SaaS apps with clean env separation
+- [Documenting Architecture Decisions](documenting-architecture-decisions.md) — Nygard's ADR: short in-repo records of the why behind a decision
+- [Claude Code documentation](claude-code-documentation.md) — Anthropic's agentic coding tool and its harness: CLAUDE.md, settings, hooks, skills, subagents, plugins, MCP
+- [How Claude Code Works in Large Codebases](how-claude-code-works-large-codebases.md) — agentic search over RAG, the harness beats the model, deployment patterns for scale
+- [Choose a Claude Code Sandbox Environment](claude-code-sandbox-environments.md) — the isolation ladder from Bash sandbox to VM; filesystem and network isolation together or neither
+- [A Practical Guide to Building Agents (OpenAI)](a-practical-guide-to-building-agents.md) — when to build an agent, the model/tools/instructions triad, single vs multi-agent, layered guardrails
+- [OpenAI Swarm](openai-swarm.md) — experimental stateless multi-agent lib on two primitives (Agents + handoffs); superseded by the Agents SDK
+- [LangGraph](langgraph.md) — orchestration that models an agent's control flow as an explicit typed graph of nodes, edges, shared state
+- [AutoGen](autogen.md) — Microsoft's layered multi-agent framework where behavior emerges from conversations between agents
+- [CrewAI](crewai.md) — role-playing agent orchestration: a crew with roles/goals, tasks under a process, autonomy dialed between Crews and Flows
+- [LLM Powered Autonomous Agents](llm-powered-autonomous-agents.md) — Lilian Weng's foundational map: LLM as brain plus planning, memory, tool use
+- [Anatomy of the .claude/ Folder](anatomy-of-the-claude-folder.md) — the .claude/ control center: CLAUDE.md, commands, skills, subagents, settings/permissions
+- [The Prompt Report](the-prompt-report.md) — Schulhoff et al.'s taxonomy of 58 prompting techniques and a 33-term vocabulary mapping the field
+- [DSPy](dspy.md) — Khattab et al. replace hand-tuned prompt strings with declarative modules a compiler optimizes against a metric
+- [τ-bench (TAU-bench)](tau-bench.md) — Sierra's multi-turn rule-following agent benchmark; introduces pass^k for reliability
+- [MemGPT](memgpt.md) — Packer et al. (Letta) manage the context window like OS virtual memory, paging main ↔ external context
+- [An Introduction to Cybernetics](introduction-to-cybernetics.md) — Ashby's 1956 law of requisite variety: only variety can absorb variety
+- [LLM — Simon Willison's CLI](simon-willison-llm.md) — one Unix-style CLI over every model, with SQLite logging, schemas, tools, embeddings
+- [Your AI Product Needs Evals](your-ai-product-needs-evals.md) — Hamel Husain's three levels of LLM evaluation and what a good eval system unlocks
+- [Patterns for Building LLM-based Systems (Eugene Yan)](eugene-yan-llm-patterns.md) — seven production patterns mapped data-to-user
+- [LLMs Demand Observability-Driven Development (Honeycomb)](honeycomb-observability-for-llms.md) — why nondeterministic LLMs need wide events, traces, high-cardinality querying
+- [Harness Engineering for Coding Agent Users (Böckeler)](bockeler-harness-engineering.md) — guides vs sensors, computational vs inferential, harnesses-within-harnesses
+- [Blameless PostMortems and a Just Culture](blameless-post-mortems.md) — Allspaw on why "second stories," not blame, make systems safer
+- [How Complex Systems Fail](how-complex-systems-fail.md) — Cook's 18 observations: failure is continuous; catastrophe needs multiple aligned failures
+- [Producing Open Source Software](producing-open-source-software.md) — Fogel on the human side of running a successful open project
+- [Enterprise Integration Patterns](enterprise-integration-patterns.md) — Hohpe & Woolf's 65 messaging patterns for asynchronous integration
+- [Designing Data-Intensive Applications](designing-data-intensive-applications.md) — Kleppmann on reliability, scalability, idempotence, backpressure, durability
+- [What Is Harness Engineering? (Hightower)](hightower-what-is-harness-engineering.md) — Agent = Model + Harness; traced from the 1947 Fitts cockpit study to the 2026 vendor convergence
+- [The Naked Agent (Hightower)](hightower-the-naked-agent.md) — frameworks give a loop, not a harness; it breaks three ways (runaway loop, context rot, silent tool failure)
+- [Tool Contracts and Validators (Hightower)](hightower-tool-contracts-and-validators.md) — instructions are followed most of the time, contracts every time; validators at the action boundary
+- [The Allergy Was in the Vector Store (Hightower)](hightower-allergy-vector-store.md) — three memory tiers; safety-critical facts load by identity, not similarity
+- [Context Assembly (Hightower)](hightower-context-assembly.md) — the window is RAM, not memory; select/compress/isolate/write, and why order matters
+- [The Retry That Booked Marta's Flight Twice (Hightower)](hightower-the-retry.md) — idempotency guards, intent-before-result checkpoints, durable state for at-most-once side effects
+- [Multi-Agent Orchestration (Hightower)](hightower-multi-agent-orchestration.md) — the 15x token tax, the three-condition split gate, hub-and-spoke context isolation
+- [Human-in-the-Loop (Hightower)](hightower-human-in-the-loop.md) — gate only the irreversible/high-stakes/intent-contradicting slice; silence means denial
+- [Observability (Hightower)](hightower-observability.md) — server metrics can't see agent decisions; OpenTelemetry gen_ai.* conventions, drift, promotion gate
+- [Humans and Agents in Software Engineering Loops (Morris)](humans-and-agents-morris.md) — the why-loop/how-loop model; "on the loop" vs "in the loop"
+- [How I Use AI to Code (Parsons)](how-i-use-ai-to-code-parsons.md) — shipping production code AI-first (not vibe coding): build the system, run loops, invest in verification
+- [Your Agent Orchestrator Is Too Clever (Parsons)](your-agent-orchestrator-is-too-clever.md) — Sutton's bitter lesson: a bare Ralph loop + a good model beats elaborate state machines
+- [Skills Are Claude Code's Secret Weapon (Parsons)](skills-are-claude-codes-secret-weapon.md) — skills as curated reusable prompts loaded on demand
+- [Feedback Is the New Bottleneck (Parsons)](feedback-is-the-new-bottleneck.md) — the constraint shifts from generation to verification; build review surfaces, not prompts
+- [Maintainability Sensors for Coding Agents (Böckeler)](maintainability-sensors-for-coding-agents.md) — computational vs inferential sensors; AI modularity review catches design debt linters can't
+- [Harness Engineering Beyond Skills (Böckeler talk)](harness-engineering-beyond-skills.md) — stop piling up markdown guides; engineer feedback sensors the agent can self-correct against
+- [Loop Engineering Is Just Software Engineering (Piccolo)](loop-engineering-is-just-software-engineering.md) — agent loops are distributed systems; Worker/State/Triggers primitives
+- [You Don't Need Sub-Agents (Vinogradov)](you-dont-need-sub-agents.md) — multi-agent swarms recreate Brooks's coordination cost; a single loop wins
+- [The Middle Loop (Vella)](the-middle-loop.md) — the supervisory layer between the agent's inner loop and the human's outer loop
+- [AI Replaced 80% of Coding (Gaddam)](ai-replaced-80-percent-of-coding.md) — syntax is automated, engineering isn't; value migrates to design, trade-offs, debugging, reliability
