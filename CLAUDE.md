@@ -20,7 +20,7 @@ an OKF v0.1 bundle.
   PDF/HTML we ingest then delete (via `/hal-doc`). `source` is the canonical URL whenever
   there is one — which is almost always, including books and papers (link to the work's
   website). Omit `source` only for a non-copyrighted local file that has no URL.
-- `Image` — extracted from a pasted/ingested image (via `/hal-image`). The image is
+- `Image` — extracted from an image dropped in `inbox/` (via `/hal-image`). The image is
   dropped after extraction (pixelated, low-value; the note is what matters). No `source`.
 - `Note` — a concrete note on how I implement the general standards and ideas already in
   the wiki: my applied workflow and work style, made specific (via `/hal-note`). No

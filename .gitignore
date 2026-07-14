@@ -1,1 +1,5 @@
 .DS_Store
+
+# inbox is a transient intake queue — never commit its contents (keep the folder)
+inbox/*
+!inbox/.gitkeep
