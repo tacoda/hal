@@ -118,7 +118,7 @@ principle — model $p(\mathbf{x})$, then sample — unifies text generation in
 [LLMs](large-language-models.md), image and video synthesis, drug and material design, and
 data augmentation. They also deepen [unsupervised learning](unsupervised-learning.md): to
 generate data well, a model must implicitly *understand* its structure. They are a
-distinctive corner of the [../models.md](../models.md) landscape, defined by what they
+distinctive corner of the [../models.md](../ai-platform/models.md) landscape, defined by what they
 produce rather than merely what they predict.
 
 ## References

@@ -13,7 +13,7 @@ where you are to where you want to be. This is the heart of **GOFAI** ("Good Old
 AI") — the symbolic, algorithmic paradigm that precedes and complements
 [machine learning](machine-learning.md). Search is still everywhere modern AI works: a
 game engine, a route planner, a theorem prover, a compiler's register allocator, and the
-planning layer of an LLM [agent](../building-effective-agents.md) are all search at heart.
+planning layer of an LLM [agent](../agentic-coding/building-effective-agents.md) are all search at heart.
 
 ## The state-space formulation
 
@@ -54,7 +54,7 @@ to the goal. They differ only in the order they expand nodes:
   optimal.
 - **Uniform-cost search (UCS)** — expand the node with lowest *path cost g(n)* first, using a
   priority queue. This is **Dijkstra's shortest-path algorithm** in AI clothing (see
-  [Introduction to Algorithms](../introduction-to-algorithms.md)); it is complete and optimal
+  [Introduction to Algorithms](../computer-science/introduction-to-algorithms.md)); it is complete and optimal
   for non-negative costs, at the price of exploring cost-cheap regions broadly.
 
 ## Informed search: heuristics
@@ -112,11 +112,11 @@ Search is the algorithmic foundation the whole field is built on, and it never w
 [Reinforcement learning](reinforcement-learning.md) is, in one reading, learning to search a
 state space when the successor function and rewards are unknown; A\*-style value estimates
 reappear there as value functions. Planning modules in autonomous systems and the
-task-decomposition loops of LLM agents ([building effective agents](../building-effective-agents.md))
+task-decomposition loops of LLM agents ([building effective agents](../agentic-coding/building-effective-agents.md))
 are search over action sequences. Understanding completeness, optimality, and the cost of a
 good heuristic gives you the vocabulary to reason about *any* of these systems. For the
 broader map of how symbolic AI relates to the learning paradigms, see
-[models](../models.md) and cross-field foundations in
+[models](../ai-platform/models.md) and cross-field foundations in
 [computer science](../computer-science/index.md), [mathematics](../math/index.md), and
 [linear optimization](../linear-optimization/index.md).
 
@@ -124,5 +124,5 @@ broader map of how symbolic AI relates to the learning paradigms, see
 
 - [Artificial Intelligence: A Modern Approach](aima.md) (Russell & Norvig) — the canonical
   treatment of state-space search, informed search, adversarial search, and CSPs.
-- [Introduction to Algorithms](../introduction-to-algorithms.md) — BFS, DFS, Dijkstra, and the
+- [Introduction to Algorithms](../computer-science/introduction-to-algorithms.md) — BFS, DFS, Dijkstra, and the
   graph-algorithm underpinnings of uninformed and uniform-cost search.

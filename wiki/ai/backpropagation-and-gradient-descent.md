@@ -115,7 +115,7 @@ Backprop + gradient descent is the *universal training algorithm* of modern AI. 
 [large language models](large-language-models.md) to
 [generative models](generative-models.md) — is trained by some variant of this loop. It
 turns "learning" into a concrete, mechanizable optimization procedure, and it is the reason
-end-to-end differentiable models became the dominant [../models.md](../models.md).
+end-to-end differentiable models became the dominant [../models.md](../ai-platform/models.md).
 
 ## References
 

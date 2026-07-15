@@ -46,7 +46,7 @@ $$V^\pi(s) = \sum_a \pi(a \mid s) \sum_{s'} P(s' \mid s, a)\big[R(s,a) + \gamma 
 The **Bellman optimality equation** replaces the average over actions with a max, and its
 fixed point is the optimal value $V^*$; acting greedily with respect to $Q^*$ gives an
 optimal policy. This dynamic-programming structure ties directly to the
-[optimization](../linear-optimization/index.md) and [algorithms](../introduction-to-algorithms.md)
+[optimization](../linear-optimization/index.md) and [algorithms](../computer-science/introduction-to-algorithms.md)
 of sequential decision-making.
 
 ## Three families of solution methods

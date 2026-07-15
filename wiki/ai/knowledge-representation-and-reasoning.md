@@ -90,7 +90,7 @@ This defines the historic fault line in AI:
 
 The field's arc ran from symbolic dominance, through the "AI winters" when symbolic promises
 outran results, to today's connectionist ascendancy. But the divide is closing: **neuro-symbolic**
-systems, retrieval-augmented generation, tool-using [agents](../building-effective-agents.md),
+systems, retrieval-augmented generation, tool-using [agents](../agentic-coding/building-effective-agents.md),
 and knowledge-graph-backed memory all bolt symbolic structure onto learned models — precisely
 to recover the transparency and reliability that pure end-to-end learning lacks.
 

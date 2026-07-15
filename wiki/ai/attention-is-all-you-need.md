@@ -79,12 +79,12 @@ flowchart TB
 The Transformer's key structural win is that it is **massively parallelizable** and its
 compute scales predictably with data and model size — the property that made it the
 substrate for the era of scale. Encoder-only descendants (BERT) power understanding
-tasks; decoder-only descendants power the generative [models](../models.md) behind today's
+tasks; decoder-only descendants power the generative [models](../ai-platform/models.md) behind today's
 LLMs and coding assistants. It is the architecture whose favorable
-[scaling behavior](../scaling-laws-agent-harnesses-efc.md) underwrites the entire modern
+[scaling behavior](../harness-engineering/scaling-laws-agent-harnesses-efc.md) underwrites the entire modern
 agent stack — the systems described in
-[Building Effective Agents](../building-effective-agents.md) and the prompting techniques
-catalogued in [The Prompt Report](../the-prompt-report.md) all run on Transformer LLMs.
+[Building Effective Agents](../agentic-coding/building-effective-agents.md) and the prompting techniques
+catalogued in [The Prompt Report](../ai-platform/the-prompt-report.md) all run on Transformer LLMs.
 
 ## References
 

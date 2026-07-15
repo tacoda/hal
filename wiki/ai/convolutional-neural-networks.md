@@ -90,7 +90,7 @@ The recipe was not conceptually new (LeCun's LeNet applied CNNs to digit recogni
 the 1990s) but combined large labeled data, GPU compute, ReLU activations, and dropout
 [regularization](generalization-and-regularization.md) at a scale that finally worked.
 This is widely regarded as the spark of the modern deep-learning era, a
-[scaling](../scaling-laws-agent-harnesses-efc.md) lesson later echoed by
+[scaling](../harness-engineering/scaling-laws-agent-harnesses-efc.md) lesson later echoed by
 [large language models](large-language-models.md).
 
 ## Why it matters
@@ -103,7 +103,7 @@ vision transformers for very large datasets. The idea that architecture encodes
 assumptions connects to [linguistics](../linguistics/index.md) (structure in language),
 [mathematics](../math/index.md) (convolution, linear algebra), and
 [statistics](../statistics/index.md) (bias–variance tradeoff). CNN-based perception also
-underpins many capabilities in modern [models](../models.md).
+underpins many capabilities in modern [models](../ai-platform/models.md).
 
 ## References
 

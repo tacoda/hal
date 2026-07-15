@@ -13,7 +13,7 @@ the 2017 paper [*Attention Is All You Need*](attention-is-all-you-need.md), it r
 the recurrence of [RNNs](sequence-models-and-rnns.md) with a single mechanism —
 **self-attention** — that lets every position in a sequence directly attend to every
 other, in parallel. That one change unlocked the scale that produced today's
-[models](../models.md).
+[models](../ai-platform/models.md).
 
 ## The core problem attention solves
 
@@ -114,18 +114,18 @@ Because self-attention computes all positions at once as dense matrix multiplica
 GPUs/TPUs — no sequential dependency to serialize. This made it feasible to train on
 internet-scale corpora, and the architecture proved to keep improving predictably as
 parameters, data, and compute grow (see [scaling
-laws](../scaling-laws-agent-harnesses-efc.md)). The one cost is that attention is
+laws](../harness-engineering/scaling-laws-agent-harnesses-efc.md)). The one cost is that attention is
 **quadratic** in sequence length ($O(n^2)$ in time and memory, since every token attends to
 every token), which drives the whole research program on long-context and efficient-attention
-methods relevant to [context engineering](../context-engineering.md).
+methods relevant to [context engineering](../harness-engineering/context-engineering.md).
 
 ## Why it matters
 
 The transformer is the substrate of the current AI era. Everything downstream in HAL —
-[LLMs](large-language-models.md), [agents](../building-effective-agents.md),
-[autonomous agents](../llm-powered-autonomous-agents.md),
-[prompting](../the-prompt-report.md), [DSPy](../dspy.md), and
-[AI engineering](../ai-engineering-huyen.md) practice — assumes a transformer underneath.
+[LLMs](large-language-models.md), [agents](../agentic-coding/building-effective-agents.md),
+[autonomous agents](../agentic-coding/llm-powered-autonomous-agents.md),
+[prompting](../ai-platform/the-prompt-report.md), [DSPy](../ai-platform/dspy.md), and
+[AI engineering](../ai-platform/ai-engineering-huyen.md) practice — assumes a transformer underneath.
 Its ideas draw on [linguistics](../linguistics/index.md) (structure and reference in
 language), [mathematics](../math/index.md) (linear algebra, softmax), and
 [statistics](../statistics/index.md) (probabilistic sequence modeling).

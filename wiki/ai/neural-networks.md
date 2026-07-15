@@ -126,7 +126,7 @@ and compute. Convolutional networks
 recurrent networks ([sequence models and RNNs](sequence-models-and-rnns.md)), and
 [transformers](transformers-and-attention.md) are all specializations of this base idea,
 and modern [large language models](large-language-models.md) are enormous instances of it.
-They are one entry in the broader catalog of [../models.md](../models.md).
+They are one entry in the broader catalog of [../models.md](../ai-platform/models.md).
 
 ## References
 

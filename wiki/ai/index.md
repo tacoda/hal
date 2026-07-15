@@ -12,8 +12,8 @@ perceiving, reasoning, learning, deciding, and generating. This folder is the
 **college-level canon** of the field: the core ideas as `Concept` notes, anchored to the
 canonical `Reference` texts, and cross-linked to the neighbouring fields AI is built out
 of. It sits beneath HAL's large applied corpus on *using* today's models — agents,
-harnesses, evals, context — which begins at [models](../models.md) and
-[Building Effective Agents](../building-effective-agents.md).
+harnesses, evals, context — which begins at [models](../ai-platform/models.md) and
+[Building Effective Agents](../agentic-coding/building-effective-agents.md).
 
 ## The shape of the field
 

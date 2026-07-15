@@ -124,7 +124,7 @@ data-splitting discipline is the foundation for everything downstream:
 [deep learning](deep-learning.md),
 [transformers and attention](transformers-and-attention.md), and the
 [large language models](large-language-models.md) that power modern
-[agents](../building-effective-agents.md). Its mathematical roots run through
+[agents](../agentic-coding/building-effective-agents.md). Its mathematical roots run through
 [statistics](../statistics/index.md), [mathematics](../math/index.md), and
 [linear optimization](../linear-optimization/index.md).
 

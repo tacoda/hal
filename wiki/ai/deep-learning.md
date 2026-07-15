@@ -85,7 +85,7 @@ Deep learning is the reason "AI" and "neural networks" became nearly synonymous 
 It is a general recipe — differentiable, composable, scalable — that has, with the same core
 machinery, produced state-of-the-art results in vision, speech, language, protein folding,
 and game-playing (including [reinforcement learning](reinforcement-learning.md) agents). It
-is one, now-dominant, branch of the larger space of [../models.md](../models.md).
+is one, now-dominant, branch of the larger space of [../models.md](../ai-platform/models.md).
 
 ## References
 

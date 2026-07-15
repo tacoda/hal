@@ -82,7 +82,7 @@ far less labeled data — fine-tuning the weights or just training a small head 
 frozen embeddings. This *pretrain-then-adapt* recipe is why one foundation model can seed
 thousands of applications, and it is the economic engine behind
 [large language models](large-language-models.md) — see the discussion of matching
-[models](../models.md) to tasks.
+[models](../ai-platform/models.md) to tasks.
 
 ## Why learned representations beat hand-engineered features
 

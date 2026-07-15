@@ -76,7 +76,7 @@ flowchart LR
   [machine-learning](machine-learning.md), [reinforcement-learning](reinforcement-learning.md),
   [supervised-learning](supervised-learning.md).
 - The probability chapters lean on [statistics](../statistics/index.md); search and
-  logic complexity connect to [Introduction to Algorithms](../introduction-to-algorithms.md)
+  logic complexity connect to [Introduction to Algorithms](../computer-science/introduction-to-algorithms.md)
   and [mathematics](../math/index.md).
 
 ## References

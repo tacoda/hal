@@ -13,8 +13,8 @@ text to predict the next token. That deceptively simple objective, scaled up far
 yields systems that translate, summarize, write code, reason through problems, and hold
 conversations. LLMs are the **bridge between AI-the-field and the applied agent and
 harness notes** that make up most of HAL: everything from
-[building effective agents](../building-effective-agents.md) to
-[context engineering](../context-engineering.md) presupposes the machinery described here.
+[building effective agents](../agentic-coding/building-effective-agents.md) to
+[context engineering](../harness-engineering/context-engineering.md) presupposes the machinery described here.
 
 ## Tokenization
 
@@ -26,7 +26,7 @@ tokenization is the sweet spot between a character vocabulary (short vocab, very
 sequences) and a word vocabulary (huge vocab, no way to spell unseen words). Every token
 maps to a learned [embedding](representation-learning-and-embeddings.md) vector — this is
 where the [transformer](transformers-and-attention.md) begins. Token counts also drive
-cost and the context-window limits that [context engineering](../context-engineering.md)
+cost and the context-window limits that [context engineering](../harness-engineering/context-engineering.md)
 must manage.
 
 ## The pretraining objective
@@ -44,20 +44,20 @@ language — and, incidentally, an enormous amount of world knowledge, since pre
 well requires modeling what the text describes. No labels are needed; the data labels
 itself, which is why the approach scales to the whole web. This is
 [representation learning](representation-learning-and-embeddings.md) at extreme scale, and
-the substrate for all the [models](../models.md) HAL discusses.
+the substrate for all the [models](../ai-platform/models.md) HAL discusses.
 
 ## Scaling laws and emergent abilities
 
 Empirically, LLM loss falls as a smooth **power law** in model parameters, dataset size,
 and training compute — the **scaling laws** (Kaplan et al.; Chinchilla). Bigger, better-fed
 models are predictably better, which is why the field poured capital into scale. See
-[scaling laws for agent harnesses](../scaling-laws-agent-harnesses-efc.md) for how the same
+[scaling laws for agent harnesses](../harness-engineering/scaling-laws-agent-harnesses-efc.md) for how the same
 logic extends beyond the model itself. Alongside the smooth curve come **emergent
 abilities**: capabilities (multi-step arithmetic, chain-of-thought reasoning, instruction
 following) that are near-absent in small models and appear relatively abruptly past some
 scale. Whether emergence is a genuine phase change or an artifact of the metric is debated,
 but the practical effect — new capabilities unlocking with scale — is real and shapes
-[model selection](../models.md).
+[model selection](../ai-platform/models.md).
 
 ## In-context learning
 
@@ -66,10 +66,10 @@ from examples or instructions placed *in the prompt*, with **no weight updates a
 Show a few input→output pairs (few-shot) and it infers the pattern; describe the task
 (zero-shot) and it often just does it. The forward pass itself acts as a learning
 algorithm over the context. This is the entire foundation of **prompt engineering** — see
-[The Prompt Report](../the-prompt-report.md) — and of programmatic prompting frameworks
-like [DSPy](../dspy.md). It is also why the *contents* of the context window are so
-load-bearing, the premise of [context engineering](../context-engineering.md) and of
-memory systems like [MemGPT](../memgpt.md).
+[The Prompt Report](../ai-platform/the-prompt-report.md) — and of programmatic prompting frameworks
+like [DSPy](../ai-platform/dspy.md). It is also why the *contents* of the context window are so
+load-bearing, the premise of [context engineering](../harness-engineering/context-engineering.md) and of
+memory systems like [MemGPT](../harness-engineering/memgpt.md).
 
 ## Fine-tuning and RLHF: from predictor to assistant
 
@@ -101,10 +101,10 @@ fluent, false output — is not a bug bolted on but a consequence of the objecti
 is trained to produce *probable-sounding* text, not *true* text, and it has no built-in
 mechanism to know the boundary of its knowledge. Mitigations (retrieval grounding,
 tool use, evals, verification) are much of what applied
-[AI engineering](../ai-engineering-huyen.md) is about. **Alignment** — making a
+[AI engineering](../ai-platform/ai-engineering-huyen.md) is about. **Alignment** — making a
 capable model helpful, honest, and harmless — is the broader challenge that RLHF partially
 addresses and that remains open as models grow more capable and are handed more autonomy in
-[agentic systems](../llm-powered-autonomous-agents.md).
+[agentic systems](../agentic-coding/llm-powered-autonomous-agents.md).
 
 ## Why it matters
 
@@ -115,7 +115,7 @@ LLMs are where the field's foundations —
 [reinforcement learning](reinforcement-learning.md) — converge into the technology that
 drives current practice. Understanding tokenization, the pretraining objective, scaling,
 in-context learning, and alignment is the prerequisite for reasoning clearly about the
-[agents](../building-effective-agents.md), harnesses, and workflows in the rest of HAL.
+[agents](../agentic-coding/building-effective-agents.md), harnesses, and workflows in the rest of HAL.
 The field also reaches into [linguistics](../linguistics/index.md),
 [mathematics](../math/index.md), and [statistics](../statistics/index.md).
 
@@ -125,7 +125,7 @@ The field also reaches into [linguistics](../linguistics/index.md),
   the transformer that LLMs scale.
 - [Deep Learning (Goodfellow, Bengio, Courville)](deep-learning-goodfellow.md) —
   underlying deep-network foundations.
-- [AI Engineering (Chip Huyen)](../ai-engineering-huyen.md) — building applications on
+- [AI Engineering (Chip Huyen)](../ai-platform/ai-engineering-huyen.md) — building applications on
   top of foundation models.
 - Brown et al., *Language Models are Few-Shot Learners* (GPT-3, 2020) — in-context
   learning; Kaplan et al. / Hoffmann et al. (Chinchilla) — scaling laws; Ouyang et al.,

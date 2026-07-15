@@ -97,7 +97,7 @@ algorithms behind game-playing and robotics agents, and of RLHF for
 RL is the formal theory of *sequential decision-making under uncertainty*, and its
 concepts — reward, value, policy, exploration vs. exploitation — recur far beyond ML:
 in control, operations research, neuroscience, and the design of autonomous
-[agents](../building-effective-agents.md). It is one of the three canonical paradigms of
+[agents](../agentic-coding/building-effective-agents.md). It is one of the three canonical paradigms of
 [machine learning](machine-learning.md), and the reference frame for reasoning about any
 system that learns to act toward a goal.
 
