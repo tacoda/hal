@@ -21,7 +21,7 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 - [Software Engineering](software-engineering/index.md) — The craft & testing canon — clean code, refactoring, TDD, legacy code, simplicity. (27 notes)
 - [Software Architecture](software-architecture/index.md) — Architecture & service design — clean/hexagonal, DDD, microservices, patterns. (27 notes)
 - [Distributed Systems](distributed-systems/index.md) — Distributed data & systems — consistency, CAP, consensus, replication, partitioning, transactions, clocks, fault tolerance, messaging, data processing. (21 notes)
-- [DevOps & SRE](devops-sre/index.md) — Delivery & operations — DevOps, SRE, CD, chaos, IaC, team topologies, observability + Docker/Kubernetes/GitHub/distribution conventions. (16 notes)
+- [DevOps & SRE](devops-sre/index.md) — Delivery & operations — DevOps, SRE, CD, chaos, IaC, team topologies, observability + Docker/Kubernetes/GitHub/distribution + Terraform/Ansible/Helm/YAML. (20 notes)
 - [Computer Science](computer-science/index.md) — the core: theory of computation, complexity, algorithms & data structures, languages/compilers, OS, architecture, networks, databases, concurrency, plus C and Lisp (academic). (23 notes)
 - [Mathematics](math/index.md) — the college core: logic & proof, linear algebra, calculus & analysis, algebra, discrete math, information theory. (24 notes)
 - [Logic](logic/index.md) — formal (propositional, predicate, Boolean algebra, proof theory, model theory, modal, non-classical) and informal (argumentation, fallacies) logic. (16 notes)

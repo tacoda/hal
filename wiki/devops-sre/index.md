@@ -24,3 +24,7 @@ Delivery & operations — DevOps, SRE, CD, chaos, IaC, team topologies, observab
 - [Kubernetes: Orchestration Conventions & Patterns](kubernetes.md) — declarative desired state via the reconciliation loop, pod/deployment/service, labels/selectors, probes & limits, operators, GitOps
 - [GitHub as the SDLC Control Plane](github.md) — PR review, GitHub Flow, branch protection, Actions (CI/CD, OIDC), releases, environments/deploys, Dependabot/CodeQL/CODEOWNERS
 - [Software Distribution and Publishing](software-distribution.md) — publishing across RubyGems/PyPI/npm, Homebrew, and curl|sh; SemVer/changelogs/signing, and the integrity tradeoff of piped installers
+- [Terraform](terraform.md) — declarative provisioning as code: HCL, providers, and why state is the crux
+- [Ansible](ansible.md) — agentless configuration management: idempotent playbooks pushed over SSH
+- [Helm](helm.md) — the Kubernetes package manager: charts, values, releases templating manifests
+- [YAML](yaml.md) — the config lingua franca (k8s, Actions, Ansible, compose): the data model and the implicit-typing gotchas
