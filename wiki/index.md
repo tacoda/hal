@@ -30,6 +30,7 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 - [Economics](economics/index.md) — scarcity, supply & demand, micro/macro, money, growth, market failure, game theory, behavioral economics, econometrics, network effects. (18 notes)
 - [Philosophy](philosophy/index.md) — epistemology, metaphysics, ethics, philosophy of mind/language/science/AI, political philosophy, free will, aesthetics, existentialism, critical thinking & fallacies. (19 notes)
 - [Sociology](sociology/index.md) — how groups, institutions, and structures shape behavior: social theory, culture, inequality, deviance, movements, networks, organizations, methods, technology & society. (18 notes)
+- [Political Science](political-science/index.md) — academic, non-partisan: power & the state, ideologies, forms of government, democracy & elections, comparative politics, IR, political economy, policy, geopolitics. (18 notes)
 - [Psychology](psychology/index.md) — the science of mind & behavior: schools, methods, perception, learning, cognition & biases, development, personality, social, motivation/emotion, clinical, wellbeing. (18 notes)
 - [Business](business/index.md) — the general business canon: strategy, competitive advantage, disruption, business models, marketing & brand, customer empathy/JTBD, product, ethics, leadership, lean startup, finance. (19 notes)
 - [Physics](physics/index.md) — matter, energy, space, time: classical mechanics, thermodynamics & stat mech, EM, waves, relativity, quantum, forces, particle physics, cosmology, symmetry. (18 notes)
