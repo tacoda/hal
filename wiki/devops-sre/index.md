@@ -20,3 +20,7 @@ Delivery & operations — DevOps, SRE, CD, chaos, IaC, team topologies, observab
 - [The Phoenix Project](phoenix-project.md) — Gene Kim: DevOps as a business novel; the Three Ways, four types of work, the Theory-of-Constraints lineage
 - [Site Reliability Engineering (SRE Book + Workbook)](site-reliability-engineering.md) — Google's SLI/SLO discipline, error budgets, toil elimination, sustainable on-call
 - [Team Topologies](team-topologies.md) — Skelton & Pais: four team types, three interaction modes, Conway's Law + the inverse maneuver, cognitive load, platform-as-a-product
+- [Docker: Container Conventions & Patterns](docker.md) — images as immutable artifacts, layer-cache-ordered Dockerfiles, multi-stage/distroless, one concern per container, config from the environment
+- [Kubernetes: Orchestration Conventions & Patterns](kubernetes.md) — declarative desired state via the reconciliation loop, pod/deployment/service, labels/selectors, probes & limits, operators, GitOps
+- [GitHub as the SDLC Control Plane](github.md) — PR review, GitHub Flow, branch protection, Actions (CI/CD, OIDC), releases, environments/deploys, Dependabot/CodeQL/CODEOWNERS
+- [Software Distribution and Publishing](software-distribution.md) — publishing across RubyGems/PyPI/npm, Homebrew, and curl|sh; SemVer/changelogs/signing, and the integrity tradeoff of piped installers
