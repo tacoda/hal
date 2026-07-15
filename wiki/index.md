@@ -23,6 +23,8 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 - [Distributed Systems](distributed-systems/index.md) — Distributed data & systems — DDIA, integration patterns, Kubernetes, twelve-factor. (7 notes)
 - [DevOps & SRE](devops-sre/index.md) — Delivery & operations — DevOps, SRE, CD, chaos, IaC, team topologies, observability. (12 notes)
 - [Computer Science](computer-science/index.md) — CS foundations — algorithms, SICP, theory. (2 notes)
+- [Mathematics](math/index.md) — the college core: logic & proof, linear algebra, calculus & analysis, algebra, discrete math, information theory. (19 notes)
+- [Statistics](statistics/index.md) — reasoning under uncertainty: probability, estimation, hypothesis testing, Bayesian inference, regression, causal inference, statistical learning. (17 notes)
 - [Process & Teams](process-and-teams/index.md) — Process, requirements, and people — MMM, Peopleware, lean, the Goal, agile specs. (13 notes)
 - [Systems Thinking](systems-thinking/index.md) — Systems theory, cybernetics, resilience, and the math of correctness. (11 notes)
 - [UX & Design](ux-design/index.md) — Design & usability — DOET, Refactoring UI, mobile interfaces, analytics. (7 notes)
