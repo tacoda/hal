@@ -35,5 +35,6 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 - [UX & Design](ux-design/index.md) — Design & usability — DOET, Refactoring UI, mobile interfaces, analytics. (7 notes)
 - [Web & Frontend](web-frontend/index.md) — Web/frontend tech — React, CSS/Tailwind, SPA, JavaScript, REST. (10 notes)
 - [Languages & Frameworks](languages-and-frameworks/index.md) — standards, patterns, conventions & methodology (not docs) for the languages/frameworks I use — Ruby, Python, PHP, Go, JS/TS + Rails, Django, FastAPI, Laravel, React, Vue, Svelte, htmx, Hotwire, LangChain/LangGraph, CLI/TUI libs. (26 notes)
+- [Linux & Unix](linux/index.md) — the Unix philosophy and the Linux model (not command docs): everything-is-a-file, shell & pipes, processes/signals, the kernel, filesystem, permissions, init, packaging, networking, containers. (16 notes)
 - [Personal Development](personal-development/index.md) — Soft skills, productivity, and self-actualization — habits, focus, meaning, and dealing with people. (19 notes)
 - [Miscellany](misc/index.md) — Cross-cutting notes that don't fit a field — AI reading lists, learning ladders, GOVERNANCE.md. (7 notes)
