@@ -53,6 +53,11 @@ they are the machinery of [backpropagation](../ai/backpropagation-and-gradient-d
 - [Principles of Mathematical Analysis](rudin-principles-of-mathematical-analysis.md) — Walter Rudin ("baby Rudin")
 - [Elements of Information Theory](cover-thomas-information-theory.md) — Cover & Thomas
 - [Discrete Mathematics and Its Applications](rosen-discrete-mathematics.md) — Kenneth Rosen
+- [Introduction to Graph Theory](west-introduction-to-graph-theory.md) — Douglas West; the standard graph-theory text
+- [Graph Theory](diestel-graph-theory.md) — Reinhard Diestel; the rigorous graduate reference (free)
+- [Abstract Algebra](dummit-foote-abstract-algebra.md) — Dummit & Foote; the comprehensive standard
+- [Algebra](artin-algebra.md) — Michael Artin; linear-algebra-forward algebra
+- [Naive Set Theory](naive-set-theory.md) — Paul Halmos; the shortest serious set-theory introduction
 
 ## Related fields
 

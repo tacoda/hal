@@ -57,6 +57,9 @@ an "I" arises from a substrate.
 - [Gödel, Escher, Bach](godel-escher-bach.md) — Douglas Hofstadter; recursion, self-reference, and mind
 - [I Am a Strange Loop](i-am-a-strange-loop.md) — Douglas Hofstadter; the self as a strange loop
 - [The Sciences of the Artificial](simon-sciences-of-the-artificial.md) — Herbert Simon; hierarchy, near-decomposability, design
+- [Network Science](barabasi-network-science.md) — Albert-László Barabási; scale-free networks, hubs, preferential attachment (free)
+- [Networks: An Introduction](newman-networks.md) — Mark Newman; the technical network-structure reference
+- [Networks, Crowds, and Markets](easley-kleinberg-networks-crowds-and-markets.md) — Easley & Kleinberg; networks across graph theory, game theory, economics (free)
 - [How Complex Systems Fail](how-complex-systems-fail.md) — Richard Cook · [Resilience Engineering](resilience-engineering-woods.md) — David Woods · [The Field Guide to Understanding 'Human Error'](field-guide-to-human-error.md) — Sidney Dekker · [Ironies of Automation](ironies-of-automation.md)
 
 ## Related fields
