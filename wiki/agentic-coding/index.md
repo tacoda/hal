@@ -60,3 +60,6 @@ Using coding agents day to day — Claude Code, skills, spec-driven and vibe wor
 - [You Don't Need Sub-Agents (Vinogradov)](you-dont-need-sub-agents.md) — multi-agent swarms recreate Brooks's coordination cost; a single loop wins
 - [Your Agent Orchestrator Is Too Clever (Parsons)](your-agent-orchestrator-is-too-clever.md) — Sutton's bitter lesson: a bare Ralph loop + a good model beats elaborate state machines
 - [Introducing Kiro](introducing-kiro.md) — AWS's spec-driven agentic IDE
+- [Claude Code: Up and Running (Kousen)](claude-code-book.md) — hands-on O'Reilly onboarding to Claude Code: CLAUDE.md, MCP, permissions, slash commands, multi-agent workflows
+- [Agentic Programming (Wilkerson)](agentic-programming-wilkerson.md) — the AI Fluency Ladder (five delegation levels) and building an agentic harness for reliable delegation
+- [Build Your Own Coding Agent (Owen)](build-your-own-coding-agent.md) — build Nanocode from scratch in pure Python; "not magic, just a while loop"

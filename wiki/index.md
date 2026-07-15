@@ -11,11 +11,11 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 ## Folders
 
 - [Artificial Intelligence](ai/index.md) — Symbolic + statistical AI, the ML paradigms, the deep-learning stack, and the LLM frontier. (23 notes)
-- [Harness Engineering](harness-engineering/index.md) — The harness/loop/sensor layer around the model — context, memory, feedback loops. (59 notes)
-- [Agentic Coding](agentic-coding/index.md) — Using coding agents day to day — Claude Code, skills, spec-driven and vibe workflows. (51 notes)
-- [AI Platform](ai-platform/index.md) — Infra for AI systems — MCP, gateways, sandboxing, model routing/serving, evals, observability. (50 notes)
+- [Harness Engineering](harness-engineering/index.md) — The harness/loop/sensor layer around the model — context, memory, feedback loops. (60 notes)
+- [Agentic Coding](agentic-coding/index.md) — Using coding agents day to day — Claude Code, skills, spec-driven and vibe workflows. (55 notes)
+- [AI Platform](ai-platform/index.md) — Infra for AI systems — MCP, gateways, sandboxing, model routing/serving, evals, observability. (54 notes)
 - [AI Governance](ai-governance/index.md) — Governance, provenance, regulation, oversight, and policy for AI systems. (14 notes)
-- [Security](security/index.md) — Security & cybersecurity — web security, secure code, secrets, supply chain. (10 notes)
+- [Security](security/index.md) — Security & cybersecurity — web security, secure code, secrets, supply chain. (11 notes)
 - [AI & the Organization](ai-org/index.md) — People and org side — hiring, interviews, adoption, productivity, roles, team shape. (45 notes)
 - [AI Business & Strategy](ai-business/index.md) — Commercial strategy — build-vs-buy, ROI, cost, tiny teams, pricing. (12 notes)
 - [Software Engineering](software-engineering/index.md) — The craft & testing canon — clean code, refactoring, TDD, legacy code, simplicity. (27 notes)

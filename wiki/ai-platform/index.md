@@ -58,3 +58,7 @@ Infra for AI systems — MCP, gateways, sandboxing, model routing/serving, evals
 - [Why, and How, You Need to Sandbox AI-Generated Code](why-and-how-to-sandbox-ai-generated-code.md) — AI code is untrusted internet code; three threats, capability allow-lists
 - [Your AI Product Needs Evals](your-ai-product-needs-evals.md) — Hamel Husain's three levels of LLM evaluation and what a good eval system unlocks
 - [Testing AI](testing-ai.md) — Arbon's guide to testing non-deterministic systems: evaluation criteria over assertions, graded oracles, uncertainty as the tester's job
+- [Under the Hood (Kumaresan)](under-the-hood-kumaresan.md) — build every layer of an LLM from scratch: 35 projects, autograd through RLHF and PagedAttention
+- [How to Build and Fine-Tune a Small Language Model (Liu)](build-and-fine-tune-small-language-model.md) — from-scratch GPT → pretraining → fine-tuning → DPO → consumer-hardware deployment
+- [Build a Large Language Model (From Scratch) (Raschka)](build-a-large-language-model-raschka.md) — build a GPT-style LLM in PyTorch: tokenization, attention, transformer block, pretraining, fine-tuning
+- [Build a Reasoning Model (From Scratch) (Raschka)](build-a-reasoning-model-raschka.md) — from-scratch reasoning: CoT, verifiers, inference-time scaling, RL with verifiable rewards, GRPO, distillation

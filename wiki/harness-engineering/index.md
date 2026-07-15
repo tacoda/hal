@@ -67,3 +67,4 @@ The harness/loop/sensor layer around the model — context, memory, feedback loo
 - [Voyager — Open-Ended Embodied Agent](voyager-embodied-agent.md) — skill library of executable code → 3.3× discovery, 15.3× faster
 - [Why Cline Doesn't Index Your Codebase](why-cline-doesnt-index-your-codebase.md) — RAG chunking tears code logic apart; discovery beats a stale index
 - [Zep — Temporal Knowledge Graph for Agent Memory](zep-temporal-knowledge-graph.md) — Graphiti's bi-temporal graph; invalidates facts instead of deleting
+- [Systems Thinking for Agentic AI (Najim)](systems-thinking-for-agentic-ai.md) — an LLM alone is not a system; systems thinking for production agents inside engineering boundaries

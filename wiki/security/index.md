@@ -18,3 +18,4 @@ Security & cybersecurity — web security, secure code, secrets, supply chain.
 - [litellm PyPI Supply-Chain Attack](litellm-pypi-supply-chain-attack.md) — malicious .pth harvests creds and pivots into Kubernetes
 - [LLM Secrets — Protect .env from Claude Code](llm-secrets.md) — hardware-bound local vault so the agent runs commands without seeing plaintext secrets
 - [Web Security: A WhiteHat Perspective](web-security.md) — a defender-mindset tour of web attacks (XSS, CSRF, injection, clickjacking) and running an SDL at scale
+- [Securing Enterprise AI Agents (de Vos)](security-enterprise-ai-agents.md) — bounded AI autonomy, a seven-layer reference architecture, MCP security, secure RAG, AgentSecOps
