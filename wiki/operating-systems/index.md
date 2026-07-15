@@ -54,3 +54,4 @@ time-shared by the [scheduler](cpu-scheduling.md). **Memory**:
 [Linux & Unix](../linux/index.md) (a concrete OS), [electrical engineering](../electrical-engineering/hardware-software-boundary.md)
 (the hardware below), [AI platform](../ai-platform/execution-sandboxing.md) (sandboxing on
 OS primitives), and [DevOps & SRE](../devops-sre/kubernetes.md) (containers at scale).
+- [From Code to Kernel](from-code-to-kernel.md) — the full call chain: Python → CPython → a C function → libc → the syscall trap → kernel mode; why everything eventually speaks C to the OS

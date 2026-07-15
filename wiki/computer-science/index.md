@@ -61,3 +61,7 @@ overlaps [logic](../logic/computability-and-decidability.md); the systems side f
 (computability, Boolean algebra), [artificial intelligence](../ai/index.md),
 [distributed systems](../distributed-systems/index.md), and
 [software engineering](../software-engineering/index.md).
+- [The C Programming Language (concept)](c-language.md) — small, close-to-the-machine systems language: the abstract machine, manual memory, the compile pipeline, libc, UB, and the syscall/FFI layer everything bottoms out in
+- [Lisp (concept)](lisp.md) — code is data: s-expressions, the metacircular evaluator, closures, macros, and GC, from lambda calculus to the dialect family
+- [The C Programming Language (K&R)](kernighan-ritchie-c-programming-language.md) — Kernighan & Ritchie; the definitive terse C book and the de facto pre-ISO spec
+- [Recursive Functions of Symbolic Expressions (McCarthy 1960)](mccarthy-recursive-functions.md) — the founding Lisp paper: s-expressions, eval, and the universal evaluator
