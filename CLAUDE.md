@@ -27,7 +27,22 @@ an OKF v0.1 bundle.
 - `Note` — a concrete note on how I implement the general standards and ideas already in
   the wiki: my applied workflow and work style, made specific (via `/hal-note`). No
   `source`; cross-link to the general note(s) it puts into practice.
+- `Concept` — a synthesized explanation of a canonical idea from a field's body of
+  knowledge (e.g. `backpropagation`, `hypothesis-testing`), written for college-level
+  comprehension rather than distilled from one source. No single `source` (it draws on the
+  field); cross-link liberally to the canonical `Reference` works that anchor it and to
+  related concepts across fields. Concept notes for a field live in that field's folder
+  (`wiki/<field>/…`) under the field's `index.md` hub.
 - `Index` — a catalog file (`index.md`)
+
+## Canonical field folders
+
+Broad fields (ai, distributed-systems, math, statistics, …) each get a folder
+`wiki/<field>/` with an `index.md` hub (survey + catalog) plus `Concept` notes for the
+core ideas and `Reference` notes for the field's canonical works. The graph is the
+organizer: cross-link concepts **within** a field and **across** fields (relative links,
+e.g. `../math/linear-algebra.md`) so any idea can be reached from a related one. Anything
+applicable to artificial intelligence links to the relevant `wiki/ai/` notes.
 
 ## Frontmatter template
 

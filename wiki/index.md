@@ -380,3 +380,9 @@ Primary sources cited by the pattern notes above, ingested directly (via `/hal-u
 - [Domain Modeling Made Functional](domain-modeling-made-functional.md) — Wlaschin pairs DDD with typed FP: model the domain as algebraic data types to make illegal states unrepresentable; workflows as functions where the type signature is the design
 - [Domain-Driven Design Distilled](domain-driven-design-distilled.md) — Vernon's short on-ramp to DDD: strategic design first (bounded contexts, ubiquitous language, subdomains, context mapping), then tactical (aggregates, events), plus EventStorming
 - [Service-Oriented Architecture](service-oriented-architecture.md) — Erl's canonical SOA text: eight service-orientation design principles, the ESB/orchestration model, and how SOA became the enterprise ancestor of microservices
+
+## Canonical fields
+
+College-level field folders — each a hub (survey + catalog) over `Concept` notes and canonical `Reference` works, cross-linked into the graph.
+
+- [Artificial Intelligence](ai/index.md) — symbolic + statistical AI, the ML paradigms, the deep-learning stack, and the LLM frontier; anchored to AIMA, Deep Learning, PRML, ESL, Sutton & Barto, Murphy, and the Transformer paper
