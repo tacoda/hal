@@ -32,6 +32,7 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 - [Sociology](sociology/index.md) — how groups, institutions, and structures shape behavior: social theory, culture, inequality, deviance, movements, networks, organizations, methods, technology & society. (18 notes)
 - [Psychology](psychology/index.md) — the science of mind & behavior: schools, methods, perception, learning, cognition & biases, development, personality, social, motivation/emotion, clinical, wellbeing. (18 notes)
 - [Business](business/index.md) — the general business canon: strategy, competitive advantage, disruption, business models, marketing & brand, customer empathy/JTBD, product, ethics, leadership, lean startup, finance. (19 notes)
+- [Physics](physics/index.md) — matter, energy, space, time: classical mechanics, thermodynamics & stat mech, EM, waves, relativity, quantum, forces, particle physics, cosmology, symmetry. (18 notes)
 - [Neuroscience](neuroscience/index.md) — how nervous systems compute: neurons, spikes, synapses & plasticity, coding, circuits, sensory systems, memory, computational neuroscience. (15 notes)
 - [Linguistics](linguistics/index.md) — the science of language: phonology, morphology, syntax, semantics, pragmatics, acquisition, sociolinguistics, and computational linguistics/NLP. (16 notes)
 - [Process & Teams](process-and-teams/index.md) — Process, requirements, and people — MMM, Peopleware, lean, the Goal, agile specs. (13 notes)
