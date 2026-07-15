@@ -36,6 +36,7 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 - [Chemistry](chemistry/index.md) — matter's structure & transformations: atomic structure, periodicity, bonding, reactions, thermodynamics, kinetics, equilibrium, acids/bases, redox, organic. (17 notes)
 - [Biology](biology/index.md) — life from molecules to ecosystems: the cell, the central dogma, genetics, evolution, ecology, biochemistry, physiology, immunology, genomics. (18 notes)
 - [Electrical Engineering & How a Computer Works](electrical-engineering/index.md) — the physical stack under software: electron → transistor switch → logic gate → bit → CPU → the hardware/OS boundary. (11 notes)
+- [Operating Systems](operating-systems/index.md) — the deep dive: processes/threads, scheduling, virtual memory, concurrency, file systems, I/O, the kernel & syscalls, boot, virtualization/containers, protection. (13 notes)
 - [Neuroscience](neuroscience/index.md) — how nervous systems compute: neurons, spikes, synapses & plasticity, coding, circuits, sensory systems, memory, computational neuroscience. (15 notes)
 - [Linguistics](linguistics/index.md) — the science of language: phonology, morphology, syntax, semantics, pragmatics, acquisition, sociolinguistics, and computational linguistics/NLP. (16 notes)
 - [Process & Teams](process-and-teams/index.md) — Process, requirements, and people — MMM, Peopleware, lean, the Goal, agile specs. (13 notes)
