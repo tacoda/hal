@@ -57,3 +57,4 @@ Infra for AI systems — MCP, gateways, sandboxing, model routing/serving, evals
 - [Why AI Evals Are the Hottest New Skill](why-ai-evals-are-the-hottest-skill.md) — Lenny's w/ Hamel & Shreya: evals as highest-ROI skill
 - [Why, and How, You Need to Sandbox AI-Generated Code](why-and-how-to-sandbox-ai-generated-code.md) — AI code is untrusted internet code; three threats, capability allow-lists
 - [Your AI Product Needs Evals](your-ai-product-needs-evals.md) — Hamel Husain's three levels of LLM evaluation and what a good eval system unlocks
+- [Testing AI](testing-ai.md) — Arbon's guide to testing non-deterministic systems: evaluation criteria over assertions, graded oracles, uncertainty as the tester's job

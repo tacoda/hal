@@ -14,7 +14,4 @@ Cross-cutting and personal notes — learning, thinking, soft skills.
 - [How AI Could Save (Not Destroy) Education](how-ai-could-save-education.md) — Bloom's 2-sigma via a Socratic, answer-withholding AI tutor
 - [How AI Is Explained vs How It Feels](how-ai-feels-in-real-life.md) — the tidy pitch vs the real engineering obstacle course
 - [How to Learn Agentic AI](how-to-learn-agentic-ai.md) — roadmap: components, frameworks, capabilities, AgentOps, governance
-- [How to Read People](how-to-read-people-body-language.md) — body-language cues by region (eyes/feet/hands/lips)
-- [How to Unf*ck Yourself](how-to-unfuck-yourself.md) — eight mindset shifts (Matt Gray)
 - [Layers of AI](layers-of-ai.md) — 6-layer technique taxonomy, Classical AI up to Agentic AI
-- [Pragmatic Thinking and Learning](pragmatic-thinking-and-learning.md) — Andy Hunt on refactoring your "wetware": Dreyfus novice→expert, L-mode/R-mode, deliberate learning, debugging your own biases
