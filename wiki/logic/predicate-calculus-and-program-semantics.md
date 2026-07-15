@@ -12,7 +12,7 @@ Edsger Dijkstra and Carel Scholten's 1990 textbook gives a self-contained, algeb
 
 ## Predicates as sets of states
 
-A program's state is an assignment of values to its variables; a **predicate** is a boolean condition on that state, equivalently the set of states where it holds. (This is the operational face of the set-theoretic view in [naive set theory](naive-set-theory.md), where a predicate is the characteristic function of a subset, and of the categorical view in [categorical logic and type theory](categorical-logic-and-type-theory.md).) Dijkstra and Scholten first build the predicate calculus itself as an equational algebra — reasoning by chains of equalities and the "everywhere" operator — so that later program proofs are calculation, not informal argument.
+A program's state is an assignment of values to its variables; a **predicate** is a boolean condition on that state, equivalently the set of states where it holds. (This is the operational face of the set-theoretic view in [naive set theory](../math/naive-set-theory.md), where a predicate is the characteristic function of a subset, and of the categorical view in [categorical logic and type theory](categorical-logic-and-type-theory.md).) Dijkstra and Scholten first build the predicate calculus itself as an equational algebra — reasoning by chains of equalities and the "everywhere" operator — so that later program proofs are calculation, not informal argument.
 
 ## The weakest precondition transformer
 

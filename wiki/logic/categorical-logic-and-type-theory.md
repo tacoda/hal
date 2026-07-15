@@ -8,7 +8,7 @@ source: https://www.cs.ru.nl/B.Jacobs/CLT/bookinfo.html
 
 # Categorical Logic and Type Theory
 
-Bart Jacobs's 1999 monograph (North-Holland, *Studies in Logic and the Foundations of Mathematics* 141) is the reference survey of **categorical logic** — the program of describing logics and type theories in the language of category theory. Its organizing idea is that both predicate logic and dependent type theory are best understood through a single structure: the **fibration**. It is kept here as the rigorous top of the stack that begins with [naive set theory](naive-set-theory.md): where Halmos gives sets, relations, and functions, Jacobs gives the categorical grammar in which *types and the propositions about them* are the same kind of object.
+Bart Jacobs's 1999 monograph (North-Holland, *Studies in Logic and the Foundations of Mathematics* 141) is the reference survey of **categorical logic** — the program of describing logics and type theories in the language of category theory. Its organizing idea is that both predicate logic and dependent type theory are best understood through a single structure: the **fibration**. It is kept here as the rigorous top of the stack that begins with [naive set theory](../math/naive-set-theory.md): where Halmos gives sets, relations, and functions, Jacobs gives the categorical grammar in which *types and the propositions about them* are the same kind of object.
 
 ## The core move: predicates as a fibration
 
@@ -35,7 +35,7 @@ The book then climbs the ladder of type theories — simple, polymorphic, depend
 
 ## Why it matters here
 
-This is the theoretical ceiling above HAL's practical type notes. The claim that a type checker is a proof checker — that a well-typed program is a constructive proof of its own specification — is exactly the Curry–Howard–Lambek correspondence Jacobs formalizes. That is the deep reason types are a reliability tool for AI-generated change: a compiler rejecting an ill-typed program is rejecting an invalid proof. It connects downward to [naive set theory](naive-set-theory.md) (the set-theoretic model of functions the categorical account generalizes) and sits alongside [predicate calculus and program semantics](predicate-calculus-and-program-semantics.md), where Dijkstra treats predicates over program states operationally; Jacobs supplies the categorical semantics for those same predicates and their quantifiers.
+This is the theoretical ceiling above HAL's practical type notes. The claim that a type checker is a proof checker — that a well-typed program is a constructive proof of its own specification — is exactly the Curry–Howard–Lambek correspondence Jacobs formalizes. That is the deep reason types are a reliability tool for AI-generated change: a compiler rejecting an ill-typed program is rejecting an invalid proof. It connects downward to [naive set theory](../math/naive-set-theory.md) (the set-theoretic model of functions the categorical account generalizes) and sits alongside [predicate calculus and program semantics](predicate-calculus-and-program-semantics.md), where Dijkstra treats predicates over program states operationally; Jacobs supplies the categorical semantics for those same predicates and their quantifiers.
 
 ## References
 

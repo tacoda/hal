@@ -78,7 +78,7 @@ the set R = {x : x ∉ x} both is and isn't a member of itself. The fix is **ZFC
 the **Axiom of Choice** (every collection of nonempty sets has a choice function). ZFC is
 the de facto foundation of mathematics. For the informal, working version — sets as a
 modeling tool rather than an axiomatic edifice — see
-[naive set theory](../systems-thinking/naive-set-theory.md).
+[naive set theory](naive-set-theory.md).
 
 ## Why it matters (including AI/CS)
 
