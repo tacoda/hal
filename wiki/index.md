@@ -30,6 +30,7 @@ One markdown note per concept, grouped into field folders. Each folder has its o
 - [Neuroscience](neuroscience/index.md) — how nervous systems compute: neurons, spikes, synapses & plasticity, coding, circuits, sensory systems, memory, computational neuroscience. (15 notes)
 - [Linguistics](linguistics/index.md) — the science of language: phonology, morphology, syntax, semantics, pragmatics, acquisition, sociolinguistics, and computational linguistics/NLP. (16 notes)
 - [Process & Teams](process-and-teams/index.md) — Process, requirements, and people — MMM, Peopleware, lean, the Goal, agile specs. (13 notes)
+- [Engineering](engineering/index.md) — engineering as the general discipline: the method, design under constraints, systems/reliability/safety engineering, failure analysis, modeling, margins, ethics. (16 notes)
 - [Systems Thinking & Complexity](systems-thinking/index.md) — feedback, cybernetics, emergence, self-organization, chaos, fractals, networks, complex adaptive systems, and strange loops. (29 notes)
 - [UX & Design](ux-design/index.md) — Design & usability — DOET, Refactoring UI, mobile interfaces, analytics. (7 notes)
 - [Web & Frontend](web-frontend/index.md) — Web/frontend tech — React, CSS/Tailwind, SPA, JavaScript, REST. (10 notes)
