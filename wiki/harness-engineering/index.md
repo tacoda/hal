@@ -8,7 +8,9 @@ timestamp: 2026-07-14
 
 The harness/loop/sensor layer around the model — context, memory, feedback loops.
 
+- [Learn Harness Engineering (WalkingLabs Course)](learn-harness-engineering/index.md) — 13-lecture applied curriculum: build a coding-agent harness from nothing, why→what→subsystems→loops
 - [2025 Was Agents, 2026 Is Agent Harnesses](2025-agents-2026-agent-harnesses.md) — the model is commodity; the harness is the moat
+- [Building More Than Just an Agent Harness (Parikh)](building-more-than-just-an-agent-harness.md) — enterprise agents are an end-to-end system (build→deploy→run→improve), not a component; evals, local LLMs, cost, culture
 - [What Is Agent Harness Engineering?](agent-harness-engineering.md) — the 5-layer scaffolding around a model does 80% of the work
 - [Agent Harness Engineering (Osmani)](agent-harness-engineering-osmani.md) — model+scaffolding; harness accumulates from failure history; HaaS
 - [Six Friction Clusters When Building Agent Harnesses](agent-harness-friction-clusters.md) — where harness builds break, across the lifecycle
@@ -39,6 +41,8 @@ The harness/loop/sensor layer around the model — context, memory, feedback loo
 - [Harness Engineering (Sensors & Simulators)](harness-engineering.md) — inner vs outer harness; feed-forward context + feedback sensors/simulators that accumulate from failures
 - [Harness Engineering Beyond Skills (Böckeler talk)](harness-engineering-beyond-skills.md) — stop piling up markdown guides; engineer feedback sensors the agent can self-correct against
 - [Harness Engineering with Codex (OpenAI)](harness-engineering-openai-codex.md) — 1M LOC in 5 months, 0 hand-written; humans move up a layer
+- [Improving Deep Agents with Harness Engineering (LangChain)](langchain-deep-agents-harness-engineering.md) — +13.7 pts on Terminal Bench with model fixed; trace-analysis loop, verification middleware, reasoning sandwich
+- [Harness Engineering with Nothing but Markdown](harness-engineering-with-markdown.md) — the "charter": non-coding agents get harnesses built from persistent Markdown (prohibited/mandatory/knowledge protocols), not linters
 - [The Allergy Was in the Vector Store (Hightower)](hightower-allergy-vector-store.md) — three memory tiers; safety-critical facts load by identity, not similarity
 - [Context Assembly (Hightower)](hightower-context-assembly.md) — the window is RAM, not memory; select/compress/isolate/write, and why order matters
 - [Human-in-the-Loop (Hightower)](hightower-human-in-the-loop.md) — gate only the irreversible/high-stakes/intent-contradicting slice; silence means denial

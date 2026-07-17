@@ -53,6 +53,7 @@ and scaling it invites real [critiques](agile-at-scale-and-critiques.md).
 - [User Stories Applied](user-stories-applied.md) — Mike Cohn · [ATDD by Example](atdd-by-example.md) — Gärtner · [Specification by Example](specification-by-example.md) — Adzic · [Software Requirements](software-requirements.md) — Wiegers & Beatty
 - [The Goal](the-goal.md) — Goldratt · [Lean Thinking](lean-thinking.md) — Womack & Jones · [Toyota Kata](toyota-kata.md) — Rother
 - [Peopleware](peopleware.md) — DeMarco & Lister · [The Mythical Man-Month](the-mythical-man-month.md) — Brooks · [The Checklist Manifesto](the-checklist-manifesto.md) — Gawande
+- [The Psychology of Software Teams](the-psychology-of-software-teams.md) — Cat Hicks; evidence-based, kills the brains-in-jars & 10x-dev myths, the performance paradox, culture as infrastructure
 - [Producing Open Source Software](producing-open-source-software.md) — Karl Fogel · [Software Development Metrics](software-development-metrics.md) — Nicolette
 
 ## Related fields
