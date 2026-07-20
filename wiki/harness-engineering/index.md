@@ -43,6 +43,7 @@ The harness/loop/sensor layer around the model — context, memory, feedback loo
 - [Harness Engineering with Codex (OpenAI)](harness-engineering-openai-codex.md) — 1M LOC in 5 months, 0 hand-written; humans move up a layer
 - [Improving Deep Agents with Harness Engineering (LangChain)](langchain-deep-agents-harness-engineering.md) — +13.7 pts on Terminal Bench with model fixed; trace-analysis loop, verification middleware, reasoning sandwich
 - [Harness Engineering with Nothing but Markdown](harness-engineering-with-markdown.md) — the "charter": non-coding agents get harnesses built from persistent Markdown (prohibited/mandatory/knowledge protocols), not linters
+- [Harness Is the Architecture (ReshapeX)](harness-is-the-architecture.md) — industrial-agent rebuild: Langflow's ceiling, knowledge graph over vector RAG, six harness disciplines, middleware stack, degrade-to-correct robustness
 - [The Allergy Was in the Vector Store (Hightower)](hightower-allergy-vector-store.md) — three memory tiers; safety-critical facts load by identity, not similarity
 - [Context Assembly (Hightower)](hightower-context-assembly.md) — the window is RAM, not memory; select/compress/isolate/write, and why order matters
 - [Human-in-the-Loop (Hightower)](hightower-human-in-the-loop.md) — gate only the irreversible/high-stakes/intent-contradicting slice; silence means denial
