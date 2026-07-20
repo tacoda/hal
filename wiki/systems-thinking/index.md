@@ -61,6 +61,11 @@ an "I" arises from a substrate.
 - [Networks: An Introduction](newman-networks.md) — Mark Newman; the technical network-structure reference
 - [Networks, Crowds, and Markets](easley-kleinberg-networks-crowds-and-markets.md) — Easley & Kleinberg; networks across graph theory, game theory, economics (free)
 - [How Complex Systems Fail](how-complex-systems-fail.md) — Richard Cook · [Resilience Engineering](resilience-engineering-woods.md) — David Woods · [The Field Guide to Understanding 'Human Error'](field-guide-to-human-error.md) — Sidney Dekker · [Ironies of Automation](ironies-of-automation.md)
+- [Systems Thinking: What, Why, When, Where, and How?](systems-thinking-what-why-when-where-and-how.md) — Michael Goodman; practitioner's primer — the iceberg (events/patterns/structure) and how to start
+- [Ask an MIT Professor: What Is System Thinking?](mit-what-is-system-thinking.md) — Edward Crawley; entities + relationships, complexity vs. performance, the bicycle as middle-complexity example
+- [What Is Systems Thinking in Business?](systems-thinking-in-business.md) — MIT Sloan Exec Ed; interconnection/feedback/patterns/leverage applied to org leadership, supply chain, innovation
+- [Human-Centered Systems Thinking for Product Leaders](human-centered-systems-thinking.md) — Zeeshan Khalid; Design Thinking (desirable) + Systems Thinking (viable) fused for product teams
+- [Systems Thinking: A Balance Between Reductionism and Emergence](systems-thinking-reductionism-and-emergence.md) — Jonathan Maloney; systems thinking as synthesis of reductionism↔emergence, "thinking gray", feedback vs. linear
 
 ## Related fields
 

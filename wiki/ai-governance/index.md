@@ -14,6 +14,7 @@ Governance, provenance, regulation, oversight, and policy for AI systems.
 - [AI Regulation & Compliance](ai-regulation.md) — EU AI Act reaches you extraterritorially; traceability = compliance; build the trail into the pipeline, not a dashboard
 - [How and Why I Attribute LLM-Derived Code (Tanna)](attributing-llm-derived-code.md) — per-commit Co-authored-by trailers name the model + provider
 - [auth.md: Open Protocol for Agentic Registration](auth-md-agentic-registration.md) — agents authenticate for users via a hosted markdown file + OAuth discovery
+- [Building Governed Agents (LangChain)](building-governed-agents.md) — the LLM gateway as runtime control plane: govern model/tool/MCP/A2A calls for cost, control, and compliance
 - [Built by Agents, Tested by Agents, Trusted by Whom?](built-by-agents-tested-by-agents.md) — when builder and tester are one system, independent trust vanishes
 - [Why Code Provenance Is Non-Negotiable (Beyond Identity)](code-provenance-non-negotiable.md) — sign every commit to a verified identity (SLSA)
 - [Data Governance](data-governance.md) — what data agents can see/send/train on; leaks out (RAG doxing), in (training), and via excessive read (.env)
